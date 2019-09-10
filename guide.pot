@@ -1,0 +1,1224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Caroline Fuhrer
+# This file is distributed under the same license as the HeRAMS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HeRAMS \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-10 15:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../docs/guide.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../docs/guide.rst:9
+msgid "Welcome to the **HeRAMS User Guide**. This user guide was designed for users of the `HeRAMS platform <https://herams.org/user/login/>`_ and aims to provide users with a brief overview of key components of the platform. In addition, step-by-step instruction for common tasks intend to facilitate navigating the platform It should be noted that the guide solely address issues related to the HERAMS paltfrom. For general information on the HeRAMS approach and for technical guidance please consult the `WHO HeRAMS webpage <https://www.who.int/hac/herams/en//>`_."
+msgstr ""
+
+#: ../docs/guide.rst:14
+msgid "The first two chapters of this user guide are intended for all users and provide step-by-step instructions on how to `access the HeRAMS platform`__ as well as a brief overview on the `project dashboards`__."
+msgstr ""
+
+#: ../docs/guide.rst:19
+msgid "`Edit Data` is intended for data editors and covers essential steps on how to access, edit and download data. `Herams Administration` offers additional guidance for country administrators and provides detailed information related to user management, access permissions, and the configuration of the project specific interactive dashboards. For additional questions, please contact the `HeRAMS Support Team <mailto:herams@who.int?>`_"
+msgstr ""
+
+#: ../docs/guide.rst:23
+msgid "Getting started"
+msgstr ""
+
+#: ../docs/guide.rst:26
+msgid "Account registration"
+msgstr ""
+
+#: ../docs/guide.rst:31
+msgid "To register as a new user, go to `herams.org <https://herams.org.>`_"
+msgstr ""
+
+#: ../docs/guide.rst:32
+msgid "On the sign-in page, click the `sign up <https://herams.org/user/register/>`_ link located just above the log in button."
+msgstr ""
+
+#: ../docs/guide.rst:39
+msgid "On the page that opens, enter your details"
+msgstr ""
+
+#: ../docs/guide.rst:40
+msgid "Submit your information by clicking the sign up button"
+msgstr ""
+
+#: ../docs/guide.rst:41
+msgid "A confirmation email will be sent to the email address you entered"
+msgstr ""
+
+#: ../docs/guide.rst:43
+msgid "If you don't receive a confirmation email within a few minutes, check your spam folder"
+msgstr ""
+
+#: ../docs/guide.rst:46
+msgid "Confirm your registration by clicking the link in your email"
+msgstr ""
+
+#: ../docs/guide.rst:50
+msgid "Logging in"
+msgstr ""
+
+#: ../docs/guide.rst:52
+msgid "Go to `https://herams.org <https://herams.org>`_ in either FireFox or Chrome"
+msgstr ""
+
+#: ../docs/guide.rst:53
+msgid "Enter your email address and password in the designated fields"
+msgstr ""
+
+#: ../docs/guide.rst:54
+msgid "Click |login|"
+msgstr ""
+
+#: ../docs/guide.rst:60
+msgid "It is strongly recommended to either user FireFox or Chrome"
+msgstr ""
+
+#: ../docs/guide.rst:63
+msgid "Logging out"
+msgstr ""
+
+#: ../docs/guide.rst:65
+msgid "When on a shared system you want to make sure that you log out when you are down. To logout click |button| in the top right corner of the screen."
+msgstr ""
+
+#: ../docs/guide.rst:72
+msgid "Reset password"
+msgstr ""
+
+#: ../docs/guide.rst:74
+msgid "Go to`https://herams.org <https://herams.org>`_  in either FireFox or Chrome"
+msgstr ""
+
+#: ../docs/guide.rst:75
+msgid "On the sign in page, click the `reset password <https://herams.org/user/forgot/>`_ link located just below the password field"
+msgstr ""
+
+#: ../docs/guide.rst:76
+msgid "Enter your email address in the top field"
+msgstr ""
+
+#: ../docs/guide.rst:77
+msgid "Below the email field, you will see an image similar to this one: |captcha|"
+msgstr ""
+
+#: ../docs/guide.rst:83
+msgid "5. Enter the the characters displayed into the field below the image 5. Click the submit button 6. You will receive an email with a password reset link, click the link"
+msgstr ""
+
+#: ../docs/guide.rst:87
+msgid "If you did not receive this email, please ceck your spam or bulk email folder."
+msgstr ""
+
+#: ../docs/guide.rst:89
+msgid "Open the link and enter your new password."
+msgstr ""
+
+#: ../docs/guide.rst:90
+msgid "Click the |submit| button to confirm your new password."
+msgstr ""
+
+#: ../docs/guide.rst:95
+msgid "To login into HeRAMS, return to the `sign in page <https://herams.org/user/login/>`_."
+msgstr ""
+
+#: ../docs/guide.rst:103
+msgid "Update your User Profile"
+msgstr ""
+
+#: ../docs/guide.rst:104
+msgid "To update your user profile or account details, click your username shown on the top right corner of the page."
+msgstr ""
+
+#: ../docs/guide.rst:105
+msgid "This opens your [user profile](https://herams.org/user/settings/profile) and allows you to change your personal information such as your name, organization and contact details."
+msgstr ""
+
+#: ../docs/guide.rst:107
+msgid "Please note that first name, last name and organization are mandatory fields"
+msgstr ""
+
+#: ../docs/guide.rst:110
+msgid "Change Password"
+msgstr ""
+
+#: ../docs/guide.rst:112
+msgid "To alter your password, open your user profile as explained [above](#update-your-user-profile)."
+msgstr ""
+
+#: ../docs/guide.rst:113
+msgid "Click the [account](https://herams.org/user/settings/account) link to access your account information."
+msgstr ""
+
+#: ../docs/guide.rst:114
+msgid "In the page opening, you should be able to change your email address and enter a new password."
+msgstr ""
+
+#: ../docs/guide.rst:115
+msgid "Make sure to click the <img src=\"media/img/bt_submit_en.png\" height=\"20\" align=\"top\" alt=\"Submit\"></img> button to confirm your changes."
+msgstr ""
+
+#: ../docs/guide.rst:122
+msgid "Add a Profile Picture"
+msgstr ""
+
+#: ../docs/guide.rst:124
+msgid "You can further personalize your account by adding a profile picture. In order for your profile picture to appear, you will have to register your email address at [Gravatar](https://en.gravatar.com/)."
+msgstr ""
+
+#: ../docs/guide.rst:126
+msgid "For more information on Gravatar, click `here <https://fr.gravatar.com/support/what-is-gravatar\"/>`_"
+msgstr ""
+
+#: ../docs/guide.rst:128
+msgid "Open your `user profile <https://herams.org/user/settings/profile/>`_ by clicking your name displayed in the upper right corner."
+msgstr ""
+
+#: ../docs/guide.rst:129
+msgid "Click the [Gravatar](https://en.gravatar.com/) link shown in the image below"
+msgstr ""
+
+#: ../docs/guide.rst:133
+msgid "You will be prompted to login to your [Worldpress](https://wordpress.com/log-in) account. If you don't already have a Worldpress account, follow the instructions to create a new account"
+msgstr ""
+
+#: ../docs/guide.rst:134
+msgid "Once logged in, open the **Manage Gravatars** tab and upload your image"
+msgstr ""
+
+#: ../docs/guide.rst:135
+msgid "In the **My Gravatars** tab you should now be able to assign the image to the email address used to register on the HeRAMS platform."
+msgstr ""
+
+#: ../docs/guide.rst:137
+msgid "It might take a few minutes before your gravatar appears on your HeRAMS profile"
+msgstr ""
+
+#: ../docs/guide.rst:141
+msgid "World map"
+msgstr ""
+
+#: ../docs/guide.rst:143
+msgid "After logging in you will see a world map with several blue dots. Each of these dots represents a HeRAMS project. You can also see the list of all available projects on the left."
+msgstr ""
+
+#: ../docs/guide.rst:145
+msgid "To learn more about a project, either click the blue dot on the world map or select the project from the list"
+msgstr ""
+
+#: ../docs/guide.rst:146
+msgid "You will see a popup window displaying an overview of the selected project. In the upper part of the pop-up you can see the project name, the number of health facilities assessed as well as the number of contributors. The lower half of the pop-up window displays a brief summary on the distribution of health facility types, their functionality and service availability."
+msgstr ""
+
+#: ../docs/guide.rst:147
+msgid "Clicking the details button will open the project dashboard"
+msgstr ""
+
+#: ../docs/guide.rst:149
+msgid "Access to project dashboard is restricted to selected users. Should you require acccess to a project, pelase contact your system administrator or send an email to [hearmas.who.int] explaining why you require access the project."
+msgstr ""
+
+#: ../docs/guide.rst:157
+msgid "Project dashboard"
+msgstr ""
+
+#: ../docs/guide.rst:159
+msgid "Each project in HeRAMS has a custom, interactive dashboard providing indepth information on a project."
+msgstr ""
+
+#: ../docs/guide.rst:161
+msgid "To view a project dashboard, open the project summary by selecting your project form the navigation pane on the left. Alternatively, you can open the project summary by clicking the corresponding blue dot on the world map."
+msgstr ""
+
+#: ../docs/guide.rst:163
+msgid "In the pop-up window, click the details button. This will open the project dashboard."
+msgstr ""
+
+#: ../docs/guide.rst:164
+msgid "You should now see a page similar to the one shown below. In the navigation pane on the left you will find a list of all available pages."
+msgstr ""
+
+#: ../docs/guide.rst:165
+msgid "To open a page, click the page name in the navigation pane."
+msgstr ""
+
+#: ../docs/guide.rst:172
+msgid "Some pages may contain a sub-page, indicated by a |forward| icon next to the page's name."
+msgstr ""
+
+#: ../docs/guide.rst:177
+msgid "5. To return to a previous page, you can either select the page in the navigation pane on the left or use the breadcrumb trail on top of the dashboard. For example, the image below displays a sub-page of the Nigeria dashboard. To return to the first page of the dashboard, click on *Nigeria* in the navigation pane."
+msgstr ""
+
+#: ../docs/guide.rst:185
+msgid "The animation below shows the dashboards in action"
+msgstr ""
+
+#: ../docs/guide.rst:194
+msgid "Filtering data"
+msgstr ""
+
+#: ../docs/guide.rst:196
+msgid "Data in the dashboard can be filtered. This allows you to zoom in on subsets that are of interest to you. Filtering is not persistent and only visible during your current session."
+msgstr ""
+
+#: ../docs/guide.rst:198
+msgid "In the top right corner of the dashboard, click the |filter| button."
+msgstr ""
+
+#: ../docs/guide.rst:203
+msgid "You should now see the filter configuration page. Use the drop-down list to select your filter criteria. Repeat this process until you have added all the desired filter criteria."
+msgstr ""
+
+#: ../docs/guide.rst:205
+msgid "If you apply multiple search criteria, only results that contain all terms will be shown"
+msgstr ""
+
+#: ../docs/guide.rst:207
+msgid "You can limit the number of fields displayed using the search field on top of the page."
+msgstr ""
+
+#: ../docs/guide.rst:209
+msgid "Click the |applyfilter| button to activate your filter."
+msgstr ""
+
+#: ../docs/guide.rst:214
+msgid "To remove the filters, return to the **Filter** pages and click the |clear| button."
+msgstr ""
+
+#: ../docs/guide.rst:224
+msgid "Tips"
+msgstr ""
+
+#: ../docs/guide.rst:226
+msgid "If you hover with your mouse over a point on the map or the chart, you will see a small pop-up message appearing displaying further details."
+msgstr ""
+
+#: ../docs/guide.rst:228
+msgid "You can adjust the zoom level of the maps using the scroll button on your mouse. In addition, you can change the focus area of the map. Make sure your mouse is in the map element. Right click *(hold)* and drag the map in the desired direction. This will move the map focus area."
+msgstr ""
+
+#: ../docs/guide.rst:230
+msgid "By clicking the icons in the legend, you can remove a category from a chart or map.  To add it again, simply click the circle again."
+msgstr ""
+
+#: ../docs/guide.rst:232
+msgid "If the map is zoomed out, it might happen that several points lie on top of each other. Thus, hidding some facilities. As a result, categories with only few facilities might be hidden. To bring a specific category to the front, uncheck the category in the legend. This will remove the category from the map. If you add the category back (click the now empty circle), the category will be added on top of the other points."
+msgstr ""
+
+#: ../docs/guide.rst:238
+msgid "Default pages"
+msgstr ""
+
+#: ../docs/guide.rst:240
+msgid "The below section provides an overview of the standard pages available in a dashboard. Each page refers to a HeRAMS standard information pillar."
+msgstr ""
+
+#: ../docs/guide.rst:242
+msgid "The order and the content of dashboards is customized based on the needs for individual projects. Your dashboard might therefore be substantially different from the example pages displayed below."
+msgstr ""
+
+#: ../docs/guide.rst:245
+msgid "Overview"
+msgstr ""
+
+#: ../docs/guide.rst:247
+msgid "The **Overview** page provides a summary, in form of: -  A map to spot the distribution and number of health facilities by level of care (i.e. primary, secondary and tertiary health care facilities); and -  Doughnut  charts to summarize different indicators, such as level of damage, functionality status, accessibility and service availability in the assessed health facility."
+msgstr ""
+
+#: ../docs/guide.rst:251
+msgid "Service availability is country specific. Thus, direct comparisons form one country to another should be avoided."
+msgstr ""
+
+#: ../docs/guide.rst:257
+msgid "Infrastructure"
+msgstr ""
+
+#: ../docs/guide.rst:259
+msgid "The **Infrastructure** page, displays a descriptive analysis, including: - a map to spot the distribution and number of health facilities by type; - doughnut charts to illustrate **Mo**\\ des of **S**\\ ervice **D**\\ elivery (**MoSD**\\ s) by type as well as the modality of the building structure (permanent vs. temporary); and - a table to illustrate reported accessibility barriers."
+msgstr ""
+
+#: ../docs/guide.rst:268
+msgid "Condition"
+msgstr ""
+
+#: ../docs/guide.rst:270
+msgid "The **Condition** page displays the level of reported damage to MoDS buildings following a standard classification and scale (Not Damaged to Fully Damaged). Information is visualized as: -       a map to spot the distribution and number of health facilities according to the level of building damage (i.e. condition); -       doughnut charts summarizing the reported level of building damage by level of severity as well as the distribution of MoDS by type; and -       a table to provide the name of the prioritized localities in terms of damage and their main causes."
+msgstr ""
+
+#: ../docs/guide.rst:279
+msgid "Functionality"
+msgstr ""
+
+#: ../docs/guide.rst:281
+msgid "The **Functionality** page displays the level of functionality of the MoSDs following a standard classification and scale (Fully Functioning to Not Functioning) represented as: -       a map to spot the distribution and number of MoSDs according to the functionality status; -       doughnut charts to summarize the level of functionality as well as main causes of non-functionality; and -       a table displays the list of priority areas in terms of non-functional health facilities and reported causes."
+msgstr ""
+
+#: ../docs/guide.rst:290
+msgid "Accessibility"
+msgstr ""
+
+#: ../docs/guide.rst:292
+msgid "The **Accessibility** page displays the level of accessibility to MoSDs following a standard classification and scale (Fully Accessible to Not Accessible) in the form of: -       a map to spot the distribution and number of MoSDs according to the accessibility status; -       doughnut charts to summarize the level of accessibility per number of MoSDs as well as the reported causes of inaccessibility per number of MoSDs; and -       a table displays the list of priority areas with inaccessible MoSDs and the main reported cause of inaccessibility."
+msgstr ""
+
+#: ../docs/guide.rst:301
+msgid "Management & support"
+msgstr ""
+
+#: ../docs/guide.rst:303
+msgid "The **Management & support** page displays information on the management of the MoSDs and the level of support provided by partners. The information is illustrated in terms of:"
+msgstr ""
+
+#: ../docs/guide.rst:305
+msgid "Ownership:"
+msgstr ""
+
+#: ../docs/guide.rst:307
+msgid "A map to spot the distribution of MoSDs according to their ownership (i.e. public, private, faith-based and, NGO/iNGO)."
+msgstr ""
+
+#: ../docs/guide.rst:308
+msgid "A doughnut  chart to highlighting the categories of ownership as a percentage of the total number of MoSDs."
+msgstr ""
+
+#: ../docs/guide.rst:310
+msgid "External support:"
+msgstr ""
+
+#: ../docs/guide.rst:312
+msgid "A doughnut  chart to illustrate the level of support provided by partners."
+msgstr ""
+
+#: ../docs/guide.rst:318
+msgid "Basic Amenities"
+msgstr ""
+
+#: ../docs/guide.rst:320
+msgid "The **Basic Amenities** page presents a series of doughnut  charts displaying information of core areas such as: - the principle source of water and power; and - the percentage of MoDS with sufficient water and power supplies"
+msgstr ""
+
+#: ../docs/guide.rst:328
+msgid "Service Availability"
+msgstr ""
+
+#: ../docs/guide.rst:330
+msgid "The **Service Availability** page displays multiple pages per type of service. Each page displays: -       a map to spot the distribution of the MoSDs providing the selected health service; -       doughnut charts to summarize the level of service availability as well as the underlying causes of unavailability of the service; and -       a table displays the list of priority areas per service unavailability and the main reported underlying cause."
+msgstr ""
+
+#: ../docs/guide.rst:340
+msgid "Edit & Download Data"
+msgstr ""
+
+#: ../docs/guide.rst:342
+msgid "This chapter is itended primarily for data managers responsible to update the HeRAMS data. It covers all aspects related to manipulating data in HeRAMS as well as how to donwload data for additional analysis in external application (e.g. Excel)."
+msgstr ""
+
+#: ../docs/guide.rst:345
+msgid "Access to the data edit interface is limited. Should your role require you to edit or view individual records, contact your system administrator to adjust your access permissions accordingly."
+msgstr ""
+
+#: ../docs/guide.rst:349
+msgid "Access the Data Update Interface"
+msgstr ""
+
+#: ../docs/guide.rst:351
+msgid "Open the admin interfaceby clicking the <img src=\"media/img/icon_settings.png\" height=\"20\" align=\"top\" alt='settings'></img> button on the top right corner of the page (next to your user name)."
+msgstr ""
+
+#: ../docs/guide.rst:352
+msgid "From the navigation pane on the left, select [Projects](https://herams.org/project/index)."
+msgstr ""
+
+#: ../docs/guide.rst:353
+msgid "You should now see a table of all available projects. For each project, the table displays the number **Workspaces**, **Contributors**, **Health facilities** and **Responses**."
+msgstr ""
+
+#: ../docs/guide.rst:356
+#: ../docs/guide.rst:364
+#: ../docs/guide.rst:371
+#: ../docs/guide.rst:376
+#: ../docs/guide.rst:382
+#: ../docs/guide.rst:391
+#: ../docs/guide.rst:398
+#: ../docs/guide.rst:405
+#: ../docs/guide.rst:409
+#: ../docs/guide.rst:418
+#: ../docs/guide.rst:427
+#: ../docs/guide.rst:448
+#: ../docs/guide.rst:464
+#: ../docs/guide.rst:472
+#: ../docs/guide.rst:481
+#: ../docs/guide.rst:491
+#: ../docs/guide.rst:501
+#: ../docs/guide.rst:513
+msgid "<p align=\"center\">"
+msgstr ""
+
+#: ../docs/guide.rst:356
+msgid "![tip](../../media/img/icon_tip.png) <i> The number of responses can be higher than the total number of health facilities. This indicates that a health facility was assessed multiple times over a specific time frame.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:358
+#: ../docs/guide.rst:366
+#: ../docs/guide.rst:373
+#: ../docs/guide.rst:378
+#: ../docs/guide.rst:384
+#: ../docs/guide.rst:393
+#: ../docs/guide.rst:400
+#: ../docs/guide.rst:407
+#: ../docs/guide.rst:411
+#: ../docs/guide.rst:420
+#: ../docs/guide.rst:429
+#: ../docs/guide.rst:466
+#: ../docs/guide.rst:474
+#: ../docs/guide.rst:483
+#: ../docs/guide.rst:493
+#: ../docs/guide.rst:503
+#: ../docs/guide.rst:515
+msgid "</p>"
+msgstr ""
+
+#: ../docs/guide.rst:360
+msgid "In the rightmost column, click the <img src=\"media/img/icon_workspace.png\" height=\"20\" align=\"top\" alt='workspace'></img> icon. This will open the list of available workspace."
+msgstr ""
+
+#: ../docs/guide.rst:363
+msgid "<img src=\"media/img/icon_info.png\" height=\"20\" align=\"top\" alt='info'></img> <i> HeRAMS uses so called <b>Workspaces</b> to manage access permission to the underlying data and enable a granular access control. A workspace might for example constitute a specific organization or a geographic region. For more information on <b>Workspaces</b> click <a href=\"#workspaces\">here</a>.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:368
+msgid "To view the health facilities that are part of a specific workspace, click the <img src=\"media/img/icon_data_update_black.png\" height=\"20\" align=\"top\" alt='Edit data'></img> icon in the **Action** column."
+msgstr ""
+
+#: ../docs/guide.rst:371
+msgid "![tip](../../media/img/icon_tip.png) <i> Be aware that a workspace might have multiple pages. Use the <img src=\"media/img/icon_page_forward.png\" height=\"20\" align=\"top\" alt='next page'></img> to move to the next page or filter the workspaces by typing the workspace name in the field below the header row.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:377
+msgid "<img src=\"media/img/HeRAMS_workspace_filter.png\" alt=\"HeRAMS Worldview\" height=\"300\"></img>"
+msgstr ""
+
+#: ../docs/guide.rst:380
+msgid "You should now see a table with all the health facilities of the selected workspace."
+msgstr ""
+
+#: ../docs/guide.rst:383
+msgid "<img src=\"media/vid/HeRAMS_data_update_interface.gif\" alt=\"data update interface\" height=\"300\"></img>"
+msgstr ""
+
+#: ../docs/guide.rst:387
+msgid "Edit Data"
+msgstr ""
+
+#: ../docs/guide.rst:388
+msgid "The following section provides a step-by-step guide on how to create, edit and delete health facilities."
+msgstr ""
+
+#: ../docs/guide.rst:391
+msgid "<img src=\"media/img/icon_info.png\" height=\"20\" align=\"top\" alt='info'></img> <i> For technical information related to specific questions please contact your country administrator.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:395
+msgid "#### Edit a Health Facility"
+msgstr ""
+
+#: ../docs/guide.rst:398
+msgid "<img src=\"media/img/icon_info.png\" height=\"20\" align=\"top\" alt='info'></img> <i> Please note that editing a record will override the existing record. If you would like to update the status of a health facility while keeping the history of changes, follow the instructions in the section below.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:402
+msgid "To edit a record, click the <img src=\"media/img/icon_pencil_blue.png\" height=\"20\" align=\"top\" alt='pencil'></img>  icon in the left most column."
+msgstr ""
+
+#: ../docs/guide.rst:405
+msgid "![tip](../../media/img/icon_tip.png) <i> Be aware that the table might have multiple pages. Use the button in the bottom left corner to advance to the next page. You can also reduce the number of records displayed by applying filters.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:410
+msgid "<img src=\"media/img/HeRAMS_data_update_table.png\" alt=\"update data table\" height=\"300\"></img>"
+msgstr ""
+
+#: ../docs/guide.rst:413
+msgid "2. You should now be able to edit the selected record. Use the  <img src=\"media/img/bt_next_en.png\" height=\"20\" align=\"top\" alt='next'></img> buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire. 3. To save your changes, navigate to the last page, **Validate**, and click the <img src=\"media/img/bt_submit_en.png\" height=\"20\" align=\"top\" alt='send'></img> button. 4. If you would like to discard your edits, click the <img src=\"media/img/bt_clear_en.png\" height=\"20\" align=\"top\" alt='exit'></img> button in the lower right corner of the page."
+msgstr ""
+
+#: ../docs/guide.rst:419
+msgid "<img src=\"media/vid/HeRAMS_edit_health_facility.gif\" alt=\"edit record\" height=\"300\"></img>"
+msgstr ""
+
+#: ../docs/guide.rst:422
+msgid "#### Update a Health Facility"
+msgstr ""
+
+#: ../docs/guide.rst:424
+msgid "If HeRAMS is used as a monitoring tool, you can update health facility while keeping the existing information."
+msgstr ""
+
+#: ../docs/guide.rst:427
+msgid "<img src=\"media/img/icon_info.png\" height=\"20\" align=\"top\" alt='info'></img> <i> Please note that the ability to update records is not enabled in all projects. Contact your system administrator for further information.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:431
+msgid "To update the status of a Health Facility, use the <img src=\"media/img/icon_data_update_blue.png\" height=\"20\" align=\"top\" alt='update'></img>  button to open the record."
+msgstr ""
+
+#: ../docs/guide.rst:432
+#: ../docs/guide.rst:439
+msgid "Use the two button on the bottom right side to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire."
+msgstr ""
+
+#: ../docs/guide.rst:433
+msgid "To save your changes, open the last page (**Validate**) and click  <img src=\"media/img/bt_submit_en.png\" height=\"20\" align=\"top\" alt='submit'></img>."
+msgstr ""
+
+#: ../docs/guide.rst:434
+msgid "If you would like to discard your edits, click the <img src=\"media/img/bt_clear_en.png\" height=\"20\" align=\"top\" alt='exit'></img>  button."
+msgstr ""
+
+#: ../docs/guide.rst:436
+msgid "#### Register a new Health Facility"
+msgstr ""
+
+#: ../docs/guide.rst:438
+msgid "To create a new record, click the button  <img src=\"media/img/bt_new_record_en.png\" height=\"20\" align=\"top\" alt='new record'></img>."
+msgstr ""
+
+#: ../docs/guide.rst:440
+msgid "To save your changes, navigate to the last page **Validate** and click  <img src=\"media/img/bt_submit_en.png\" height=\"20\" align=\"top\" alt='Edit data'></img>."
+msgstr ""
+
+#: ../docs/guide.rst:441
+msgid "If you would like to discard your edits, click the <img src=\"media/img/bt_new_record_en.png\" height=\"20\" align=\"top\" alt='exit'></img>  button"
+msgstr ""
+
+#: ../docs/guide.rst:443
+msgid "#### Delete a Health Facility"
+msgstr ""
+
+#: ../docs/guide.rst:445
+msgid "To delete a record, click the <img src=\"media/img/icon_delete_blue.png\" height=\"20\" align=\"top\" alt='delete'></img> icon in the first column."
+msgstr ""
+
+#: ../docs/guide.rst:448
+msgid "<img src=\"media/img/icon_warning.png\" height=\"20\" align=\"top\" alt='warning'></img> <i> Deleting records cannot be undone. Be careful when deleting a record.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:450
+msgid "</p> Download data ~~~~~~~~~~~~~"
+msgstr ""
+
+#: ../docs/guide.rst:455
+msgid "It is possible to download part of the data as **CSV** for further analysis in-depth analysis. In rare cases, permission have been granted to download"
+msgstr ""
+
+#: ../docs/guide.rst:455
+msgid "the entire data set. To download the entire data set please follow the instructions [here](#download-the-entire-data-set), otherwise see the section below."
+msgstr ""
+
+#: ../docs/guide.rst:458
+msgid "Download Workspace Data"
+msgstr ""
+
+#: ../docs/guide.rst:461
+msgid "Follow the instructions below to download data for a single workspaces. If you require data from multiple workspace, follow the below steps for each workspace."
+msgstr ""
+
+#: ../docs/guide.rst:461
+msgid "You can then merge the data in your analysis tool of choice."
+msgstr ""
+
+#: ../docs/guide.rst:464
+msgid "<img src=\"media/img/icon_info.png\" height=\"20\" align=\"top\" alt='info'></img> <i> In order to download data, you will require access to the corresponding workspace. Contact your system administrator to elevate your access rights if needed.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:468
+msgid "Navigate to the workspace page of your project (see [Access the Data Update Interface](#access-the-data-update-interface) steps 1 - 4 for detailed instructions)."
+msgstr ""
+
+#: ../docs/guide.rst:469
+msgid "In the rightmost column, click the <img src=\"media/img/icon_download.png\" height=\"20\" align=\"top\" alt='New record'></img> button. This will download all records of this workspace."
+msgstr ""
+
+#: ../docs/guide.rst:472
+msgid "![tip](../../media/img/icon_tip.png) <i> For surveys in laguages other than English, make sure to correctly define the encoding when opening the data in Excel (see <a href=\"#data-encoding-in-excel\">Data Encoding in Excel</a>."
+msgstr ""
+
+#: ../docs/guide.rst:476
+msgid "### Download the Entire Data Set"
+msgstr ""
+
+#: ../docs/guide.rst:478
+msgid "*Coming soon*"
+msgstr ""
+
+#: ../docs/guide.rst:481
+msgid "![tip](../../media/img/icon_tip.png) <i> Users are advised to download data for individual workspace as outlined above. The ability to download the entire data set is restricted to few users. Contact your system administrator for further information.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:486
+msgid "Data Encoding in Excel"
+msgstr ""
+
+#: ../docs/guide.rst:488
+msgid "When you open your data in Excel, it is important to select the correct (UTF-8) encoding."
+msgstr ""
+
+#: ../docs/guide.rst:491
+msgid "![tip](../../media/img/icon_tip.png) <i> Using the wrong encoding can result in unreadable text. For examples instead of <b>camp de réfugiés</b> you get *Camp de rÃ©fugiÃ©s*.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:496
+msgid "Open a new Excel file."
+msgstr ""
+
+#: ../docs/guide.rst:497
+msgid "On the Data tab in the **Get & Transform Data** group, click **From Text/CSV**."
+msgstr ""
+
+#: ../docs/guide.rst:498
+msgid "In the **Import Data** dialog box, locate and double-click the text file that you want to import, and click **Import**."
+msgstr ""
+
+#: ../docs/guide.rst:499
+msgid "In the top left corner of the pop-up window that opens, change the encoding type to **UTF-8**, and click **Import**."
+msgstr ""
+
+#: ../docs/guide.rst:502
+msgid "<img src=\"media/vid/HeRAMS_excel_encoding.gif\" alt=\"data update interface\" height=\"300\"></img>"
+msgstr ""
+
+#: ../docs/guide.rst:507
+msgid "HeRAMS Administration"
+msgstr ""
+
+#: ../docs/guide.rst:509
+msgid "This chapter aims to provide an overview of the admin pages in HeRAMS and provides step-by-step instruction for common tasks performed by advanced users and country administrators. The first part of the chapter introduces the concept of [Workspaces](#workspaces) while the second part focuses on [Project](#projects) level administration as well as the configuration of project specific [Dashboards](#configure-the-project-dashboard)."
+msgstr ""
+
+#: ../docs/guide.rst:513
+msgid "<img src=\"media/img/icon_info.png\" height=\"20\" align=\"top\" alt='info'></img> <i> Access to each of the sub-sections of this chapter are depending on the tasks a user is expected to complete. If you require your permissions to be changed, please contact your system administrator.</i>"
+msgstr ""
+
+#: ../docs/guide.rst:518
+msgid "Workspaces"
+msgstr ""
+
+#: ../docs/guide.rst:520
+msgid "HeRAMS uses the concept of workspaces to manage user permissions. Each workspace consists of several health facilities and has a dedicated focal point responsible for updating these records. A workspace might for example include all health facilities of a geographical region, health facilities managed by a specific partner or any other logical categories. Thus, the use of workspaces in combination with different levels of permission (see below) assures granular, role-based access control to a project and the underlying data. While most users only have access to a single workspace, country administrators might have access to several or all workspaces."
+msgstr ""
+
+#: ../docs/guide.rst:525
+msgid "<img src=\"media/img/icon_refresh_data.png\" height=\"20\" align=\"top\" alt='refresh'></img> **Data Refresh**: This button allows users to manually refresh the data cache of a workspace. Data is automatically refreshed every 30 minutes. This means if a record is updated, the changes are not immediately reflected on the dashboard."
+msgstr ""
+
+#: ../docs/guide.rst:526
+msgid "Thus, by manually refreshing the data cash of a workspace the time lack limitation can be overcome and the changes made will be visible immediately. - <img src=\"media/img/icon_pencil_black.png\" height=\"20\" align=\"top\" alt='edit'></img> **Update Workspace**: allows to change the title or token of a workspace. - <img src=\"media/img/icon_share.png\" height=\"20\" align=\"top\" alt='share'></img> **Share Workspace**: To grant a user access to workspace, the workspace must be shared with the user. For more information on how to add users to a workspace click [here](#add-a-user-to-a-workspace). - <img src=\"media/img/icon_delete_black.png\" height=\"20\" align=\"top\" alt='delete'></img> **Delete Workspace** See [Delete Workspaces](#delete-workspaces) for further information - <img src=\"media/img/icon_download.png\" height=\"20\" align=\"top\" alt='download'></img> **Download Data**: Downloads all data associated with the workspace. See [data download](#download-data) for more information. - <img src=\"media/img/icon_data_update_black.png\" height=\"20\" align=\"top\" alt='edit data'></img> **Data Update**: This opens the data edit interface. More information on data editing and updating is available in the [previous chapter](#edit-data)."
+msgstr ""
+
+#: ../docs/guide.rst:536
+msgid "#### Workspace Permissions"
+msgstr ""
+
+#: ../docs/guide.rst:538
+msgid "There are two permission levels for workspaces."
+msgstr ""
+
+#: ../docs/guide.rst:540
+msgid "Manage the underlying response data."
+msgstr ""
+
+#: ../docs/guide.rst:541
+msgid "Full access, includes editing the workspace properties, token and response data."
+msgstr ""
+
+#: ../docs/guide.rst:543
+msgid "Users with the role of **Data Editor** have access to update the response data (option 1) while **Workspace Owners** might be given elevated permission (option 2) allowing them to add additional users to their workspace and to manage the underlying response data"
+msgstr ""
+
+#: ../docs/guide.rst:545
+msgid "#### Add a User to a Workspace"
+msgstr ""
+
+#: ../docs/guide.rst:547
+msgid "To grant a user access to a workspace, open the admin interface by clicking the <img src=\"media/img/icon_settings.png\" height=\"20\" align=\"top\" alt='settings'></img> icon in the top right corner of the screen."
+msgstr ""
+
+#: ../docs/guide.rst:548
+msgid "In the navigation pane on the left, click [Projects](https://herams.org/project/index) to open the **Projects** table (see [Projects](#projects) for more information)."
+msgstr ""
+
+#: ../docs/guide.rst:549
+msgid "In the rightmost column of the table, you should see several **Action** buttons. Click the <img src=\"media/img/icon_workspace.png\" height=\"20\" align=\"top\" alt='workspace'></img>  icon. This will open the workspace of the selected project."
+msgstr ""
+
+#: ../docs/guide.rst:550
+msgid "You should now see a table with all workspaces of your project. For each workspace the table provides information on the last time data was synced with the underlying database, the number of contributors, health facilities and responses. Alike the **Projects** table, the last column contains several **Action** buttons."
+msgstr ""
+
+#: ../docs/guide.rst:551
+msgid "To grant a user access to a workspace (e.g. to update the data), you have to share the workspace with them. Click the <img src=\"media/img/icon_share.png\" height=\"20\" align=\"top\" alt='share'></img> icon in the *Actions* column."
+msgstr ""
+
+#: ../docs/guide.rst:552
+#: ../docs/guide.rst:627
+msgid "You should now see something similar to the image below. On the bottom half of the screen you can see a list of all users currently having access to this workspace and their permission level."
+msgstr ""
+
+#: ../docs/guide.rst:556
+#: ../docs/guide.rst:631
+msgid "In the top half the page you have the option to add a user. Start typing the users name in the top field. You will notice that the list of users is dynamically filtering. Select the user you would like to add."
+msgstr ""
+
+#: ../docs/guide.rst:563
+msgid "Use the checkboxes to select the appropriate permission level. See the previous section for further details on [Workspace Permissions](#workspace-permissions)."
+msgstr ""
+
+#: ../docs/guide.rst:564
+msgid "Click the <img src=\"media/img/bt_share.png\" height=\"20\" align=\"top\" alt='share'></img> button to share the workspace with the selected user(s)."
+msgstr ""
+
+#: ../docs/guide.rst:568
+msgid "#### Remove a User from a Workspace"
+msgstr ""
+
+#: ../docs/guide.rst:570
+msgid "To remove a user from a workspace, navigate to the workspace from which you would like to remove a user. Follow steps 1 - 6 outlined [above](#add-a-user-to-a-workspace) to access the workspace."
+msgstr ""
+
+#: ../docs/guide.rst:571
+msgid "On the second half of the screen you should now see a list of all users having access to the workspace. Click the <img src=\"media/img/icon_delete_black.png\" height=\"20\" align=\"top\" alt='bin'></img> icon to remove the user permanently."
+msgstr ""
+
+#: ../docs/guide.rst:573
+msgid "#### Change a User's Workspace Permission"
+msgstr ""
+
+#: ../docs/guide.rst:575
+msgid "To change a user's permission, remove the user from the workspace as outlined [above](#remove-a-user-from-a-workspace)."
+msgstr ""
+
+#: ../docs/guide.rst:576
+msgid "Now add the user again using the new permission level (see section [Add a User to a Workspace](#add-a-user-to-a-workspace) for details)."
+msgstr ""
+
+#: ../docs/guide.rst:578
+msgid "#### Create a New Workspace"
+msgstr ""
+
+#: ../docs/guide.rst:580
+msgid "To create a new workspace, access the workspace page of your project (Follow steps 1 - 6 in the [Add a User to a Workspace](#add-a-user-to-a-workspace) section)."
+msgstr ""
+
+#: ../docs/guide.rst:581
+msgid "In the upper left corner, you should see a button labelled <img src=\"media/img/bt_create_workspace.png\" height=\"20\" align=\"top\" alt='create workspace'></img>."
+msgstr ""
+
+#: ../docs/guide.rst:582
+msgid "On the page that opens, you should now be able to create a new workspace."
+msgstr ""
+
+#: ../docs/guide.rst:586
+msgid "Enter the workspace's name into the title field."
+msgstr ""
+
+#: ../docs/guide.rst:587
+msgid "Use the dropdown list to select the corresponding **Token** or create a new token by selecting **Create new token**."
+msgstr ""
+
+#: ../docs/guide.rst:591
+msgid "#### Delete a Workspaces"
+msgstr ""
+
+#: ../docs/guide.rst:593
+msgid "You can remove a workspace by clicking the <img src=\"media/img/icon_delete_black.png\" height=\"20\" align=\"top\" alt='bin'></img> icon in the **Actions** column next to the selected workspace."
+msgstr ""
+
+#: ../docs/guide.rst:598
+msgid "Projects"
+msgstr ""
+
+#: ../docs/guide.rst:600
+msgid "The <a href=\"https://herams.org/project/index\">Projects</a> page provides a brief overview of all projects available on the HeRAMS platform."
+msgstr ""
+
+#: ../docs/guide.rst:604
+msgid "For each project the number of workspaces, contributors, health facilities, and responses is displayed. Alike the table of workspaces, the last column contains a series of action buttons."
+msgstr ""
+
+#: ../docs/guide.rst:606
+msgid "<img src=\"media/img/icon_workspace.png\" height=\"20\" align=\"top\" alt='workspace'></img>**Workspaces**: For more information on workspaces click [here](#workspace)."
+msgstr ""
+
+#: ../docs/guide.rst:607
+msgid "<img src=\"media/img/icon_dashboard.png\" height=\"20\" align=\"top\" alt='dashboard'></img>**Dashboard**: By clicking the dashboard icon, the project [dashboard](#dashboard) will be opened."
+msgstr ""
+
+#: ../docs/guide.rst:608
+msgid "<img src=\"media/img/icon_pencil_black.png\" height=\"20\" align=\"top\" alt='update project'></img>**Edit**: Permits users with appropriate permission to alter the  project [settings](#project-settings) as well as to configure the project [dashboard](#configure-the-project-dashboard)."
+msgstr ""
+
+#: ../docs/guide.rst:609
+msgid "<img src=\"media/img/icon_check_data.png\" height=\"20\" align=\"top\" alt='check data'></img>**Check Data**: Can be used for a quick review of the data to identify invalid responses."
+msgstr ""
+
+#: ../docs/guide.rst:610
+msgid "<img src=\"media/img/icon_share.png\" height=\"20\" align=\"top\" alt='share'></img>**Share**: The sharing function is used to grant users access to a project. See [below](#add-a-user-to-a-project) for further details."
+msgstr ""
+
+#: ../docs/guide.rst:614
+msgid "#### Project Permissions"
+msgstr ""
+
+#: ../docs/guide.rst:616
+msgid "There are three permission levels which can be used to grant a user access to a project."
+msgstr ""
+
+#: ../docs/guide.rst:618
+msgid "Allow access to the project dashboard from the world map"
+msgstr ""
+
+#: ../docs/guide.rst:619
+msgid "Allows full access to all workspaces in this project as well as creating new ones or deleting existing ones"
+msgstr ""
+
+#: ../docs/guide.rst:620
+msgid "Allow everything"
+msgstr ""
+
+#: ../docs/guide.rst:622
+msgid "#### Add a User to a Project"
+msgstr ""
+
+#: ../docs/guide.rst:624
+msgid "To grant a user access to a specific project, open the admin interface by clicking the <img src=\"media/img/icon_settings.png\" height=\"20\" align=\"top\" alt='settings'></img> button in the top right corner of the screen."
+msgstr ""
+
+#: ../docs/guide.rst:625
+msgid "In the navigation pane on the left, click [Projects](https://herams.org/project/index) to display the list of all available projects."
+msgstr ""
+
+#: ../docs/guide.rst:626
+msgid "In the rightmost column of the table, you should see several action buttons. Click the <img src=\"media/img/icon_share.png\" height=\"20\" align=\"top\" alt='share'></img> icon."
+msgstr ""
+
+#: ../docs/guide.rst:637
+msgid "Use the checkboxes to assign appropriate permission rights. See [Project Permissions](#project-permissions) for further information on the different permission levels."
+msgstr ""
+
+#: ../docs/guide.rst:638
+msgid "Click the <img src=\"media/img/bt_share.png\" height=\"20\" align=\"top\" alt='share'></img> button to share the project with the selected users."
+msgstr ""
+
+#: ../docs/guide.rst:642
+msgid "#### Remove a User from a Project"
+msgstr ""
+
+#: ../docs/guide.rst:644
+msgid "To remove a user from a Project, follow steps 1-4 outlined in the [previous section](#add-a-user-to-a-project) to access the project from which you would like to remove a user."
+msgstr ""
+
+#: ../docs/guide.rst:645
+msgid "On the second half of the page you should now see a list of all users having access to the workspace. Click the <img src=\"media/img/icon_delete_black.png\" height=\"20\" align=\"top\" alt='bin'></img> icon to remove the user permanently."
+msgstr ""
+
+#: ../docs/guide.rst:647
+msgid "#### Change a User's Project Permissions"
+msgstr ""
+
+#: ../docs/guide.rst:649
+msgid "To change a user's permission, remove the user from the project as outlined [above](#remove-a-user-from-a-project)."
+msgstr ""
+
+#: ../docs/guide.rst:650
+msgid "Now add the user again using the new permission level (see section [Add a User to a Project](#add-a-user-to-a-project) for details)."
+msgstr ""
+
+#: ../docs/guide.rst:652
+msgid "#### Modify a Project"
+msgstr ""
+
+#: ../docs/guide.rst:654
+msgid "To update the general settings of a project, open the admin interface by clicking the <img src=\"media/img/icon_settings.png\" height=\"20\" align=\"top\" alt='settings'></img> button in the top right corner of the page."
+msgstr ""
+
+#: ../docs/guide.rst:655
+msgid "Open the **Projects** page by selecting [Projects](https://herams.org/project/index) in the navigation pane on the left."
+msgstr ""
+
+#: ../docs/guide.rst:656
+msgid "Click the <img src=\"media/img/icon_pencil_black.png\" height=\"20\" align=\"top\" alt='edit'></img> icon in the **Actions** column of your project. This will open the general settings page."
+msgstr ""
+
+#: ../docs/guide.rst:662
+msgid "You should now see a page similar to the one displayed below, which permits you"
+msgstr ""
+
+#: ../docs/guide.rst:658
+msgid "to update the project title;"
+msgstr ""
+
+#: ../docs/guide.rst:659
+msgid "to alter the survey linked to this project;"
+msgstr ""
+
+#: ../docs/guide.rst:660
+msgid "to change the centroids (latitude and longitude) of the blue dot shown on the world map;"
+msgstr ""
+
+#: ../docs/guide.rst:661
+msgid "to update the status of the project;"
+msgstr ""
+
+#: ../docs/guide.rst:662
+msgid "to configure the pop-up information displayed on the main page; and"
+msgstr ""
+
+#: ../docs/guide.rst:663
+msgid "to configure the project dashboard. Additional information on how to configure the project dashboard is available [here](#configure-dashboard)."
+msgstr ""
+
+#: ../docs/guide.rst:664
+msgid "Make sure you save your changes by clicking the <img src=\"media/img/bt_update_project.png\" height=\"25\" align=\"middle\" alt='update project'></img> button."
+msgstr ""
+
+#: ../docs/guide.rst:667
+msgid "Configure the Project Dashboard"
+msgstr ""
+
+#: ../docs/guide.rst:669
+msgid "For each HeRAMS Project, an interactive dashboard can be configured providing summarizing key indicators and findings of a project. This section provides project administrators with detailed description on how to edit these dashboards. An overview of the standard dashboard pages is available in [Chapter 2](##default-dashboard-pages)."
+msgstr ""
+
+#: ../docs/guide.rst:673
+msgid "#### Modify an Existing Dashboard Element"
+msgstr ""
+
+#: ../docs/guide.rst:675
+msgid "Users with the permissions to edit dashboards can modify charts and maps directly from within the dashboard."
+msgstr ""
+
+#: ../docs/guide.rst:680
+msgid "Open the dashboard and navigate to the element you would like to change."
+msgstr ""
+
+#: ../docs/guide.rst:681
+msgid "In the top right corner of the element you should see a <img src=\"media/img/icon_edit_dashboard.png\" height=\"20\" align=\"top\" alt='pencil '></img> icon. Right click the icon to open the element's configuration page."
+msgstr ""
+
+#: ../docs/guide.rst:685
+msgid "You should now be able"
+msgstr ""
+
+#: ../docs/guide.rst:683
+msgid "change the variable displayed"
+msgstr ""
+
+#: ../docs/guide.rst:684
+msgid "to change the colors of a map or a chart; and"
+msgstr ""
+
+#: ../docs/guide.rst:685
+msgid "to rename the element."
+msgstr ""
+
+#: ../docs/guide.rst:690
+msgid "Save your changes by clicking the <img src=\"media/img/bt_update_element.png\" height=\"20\" align=\"top\" alt='share'></img> button."
+msgstr ""
+
+#: ../docs/guide.rst:694
+msgid "#### Add a New Element to a Page"
+msgstr ""
+
+#: ../docs/guide.rst:696
+msgid "This section covers the steps required to add a new element to an existing dashboard page. If you would like to extend your dashboard by adding additional pages, please see the section [below](#add-a-new-page) on how to add a page to a dashboard."
+msgstr ""
+
+#: ../docs/guide.rst:699
+msgid "Follow the instructions outlined [here](#modify-a-project) to open the Project Settings page."
+msgstr ""
+
+#: ../docs/guide.rst:700
+msgid "In the bottom half of the page you should see a list of all available dashboard pages. For each page, the table displays the title, parent sort id."
+msgstr ""
+
+#: ../docs/guide.rst:706
+msgid "Open the page you would like to modify using the <img src=\"media/img/icon_pencil_black.png\" height=\"20\" align=\"top\" alt='pencil '></img> icon next to the page's name."
+msgstr ""
+
+#: ../docs/guide.rst:707
+msgid "In the bottom half of the page, you should see three buttons <img src=\"media/img/bt_create_element_white.png\" height=\"20\" align=\"top\" alt='create element'></img> button"
+msgstr ""
+
+#: ../docs/guide.rst:708
+msgid "Select which type of element you would like to add by clicking the corresponding button."
+msgstr ""
+
+#: ../docs/guide.rst:709
+#: ../docs/guide.rst:752
+msgid "You should now see a page similar to the one displayed below."
+msgstr ""
+
+#: ../docs/guide.rst:716
+msgid "The **Transpose** feature allows to switch between aggregating data at the health facility and the health service level. Set the feature to **No** to display data aggregated at the health facility level."
+msgstr ""
+
+#: ../docs/guide.rst:717
+msgid "Now use the **Code** dropdown list to select which field you would like to display on your element."
+msgstr ""
+
+#: ../docs/guide.rst:721
+msgid "Define the element position on the dashboard pagae by specifying the **Sort** index. The index auto-increments by one. Increment the index by 1 for each new item, starting with 0 for the first page."
+msgstr ""
+
+#: ../docs/guide.rst:722
+msgid "The **Width** and **Height** fields allow to create a custom-sized element."
+msgstr ""
+
+#: ../docs/guide.rst:726
+msgid "Optionally, the **Title** field allows you to overwrite the default title."
+msgstr ""
+
+#: ../docs/guide.rst:727
+msgid "For **Maps & Charts**, The bottom half of the page, displays the list of pre-defined answer options of the selected question. Click the color next to the category name. This will opens a color picker allowing you pick custom colors."
+msgstr ""
+
+#: ../docs/guide.rst:728
+msgid "For **Maps**, you can further specify the size of the dots by increasing/decreasing the  **Marker Radius**."
+msgstr ""
+
+#: ../docs/guide.rst:733
+msgid "For **tables**, two additional fileds will be displayed to specify the **Reason Code** and **Group Code**."
+msgstr ""
+
+#: ../docs/guide.rst:739
+msgid "Finally, click the <img src=\"media/img/bt_create_element_blue.png\" height=\"20\" align=\"top\" alt='create element'></img> button to add create the element."
+msgstr ""
+
+#: ../docs/guide.rst:741
+msgid "#### Remove an element from the dashboard 1. Follow the instructions outlined [here](#modify-a-project) to open the **Poject Settings page**. 2. In the lower half of teh page, click the <img src=\"media/img/icon_pencil_black.png\" height=\"20\" align=\"top\" alt='pencil '></img> icon to open the dashboard page you would like to modify. 3. Scroll down until you see the list of elements (charts, maps and tables). 4. Use the <img src=\"media/img/icon_delete_black.png\" height=\"20\" align=\"top\" alt='delete '></img> to permanently delete the element."
+msgstr ""
+
+#: ../docs/guide.rst:747
+msgid "Be careful deleting dashboard elements. Deleted elements cannot be restore."
+msgstr ""
+
+#: ../docs/guide.rst:750
+msgid "Add a New Page to a Dashboard"
+msgstr ""
+
+#: ../docs/guide.rst:751
+msgid "To add a new page to a dashboard, open the [project's settings](#edit-project-settings) page and click the <img src=\"media/img/bt_create_page_blue.png\" height=\"20\" align=\"top\" alt='create page'></img> button."
+msgstr ""
+
+#: ../docs/guide.rst:757
+msgid "Enter the page name in the top field."
+msgstr ""
+
+#: ../docs/guide.rst:758
+msgid "For sub-pages, select the parent page from the **Parent Id** drop-down list. For all other pages select **No parent**."
+msgstr ""
+
+#: ../docs/guide.rst:759
+msgid "Define the page order by entering a **Sort** index. Increment the index by 1 for each new page, starting with **0** for the first page."
+msgstr ""
+
+#: ../docs/guide.rst:760
+msgid "Click the <img src=\"media/img/bt_create_page_blue.png\" height=\"20\" align=\"top\" alt='create page'></img> button to add the page to the dashboard."
+msgstr ""
+
+#: ../docs/guide.rst:761
+msgid "If you return to the previous page, you will see the page appearing in the list of available pages."
+msgstr ""
+
+#: ../docs/guide.rst:766
+msgid "Update a Dashboard Page"
+msgstr ""
+
+#: ../docs/guide.rst:768
+msgid "To alter an existing page, click the <img src=\"media/img/icon_pencil_black.png\" height=\"20\" align=\"top\" alt='pencil'></img> icon next to the page's name. This will open the page's setting page. You are now able to change the title and the order of the page. See [above](#add-a-new-page) for further details."
+msgstr ""
+
+#: ../docs/guide.rst:769
+msgid "On the page that opens you should now be able to alter the page name, and display order."
+msgstr ""
+
+#: ../docs/guide.rst:770
+msgid "Save your changes by clicking the <img src=\"media/img/bt_update_page.png\" height=\"20\" align=\"top\" alt='update page'></img> button."
+msgstr ""
+
+#: ../docs/guide.rst:773
+msgid "Delete a Dashboard Page"
+msgstr ""
+
+#: ../docs/guide.rst:775
+msgid "To delete a dashboard page, navigate the [project's settings](#edit-project-settings) page."
+msgstr ""
+
+#: ../docs/guide.rst:776
+msgid "In the list of available page, click the <img src=\"media/img/icon_delete_black.png\" height=\"20\" align=\"top\" alt='pencil '></img> icon next to the page you would like to delete."
+msgstr ""
+
+#: ../docs/guide.rst:779
+msgid "Deleting dashboard pages and elements cannot be undone. Be careful when deleting pages or elements."
+msgstr ""
+
+#: ../docs/guide.rst:782
+msgid "FAQ"
+msgstr ""
+
+#: ../docs/guide.rst:783
+msgid "This section aims to help users troubleshoot frequently encountered issues. In case you encounter an issue that is not addressed here, please contact your country administrator or send an email to [herams@who.int](mailto:herams@who.int)."
+msgstr ""
+
+#: ../docs/guide.rst:786
+msgid "<details> <summary><b>I did not receive an email upon registering or resting my password</b> </summary>"
+msgstr ""
+
+#: ../docs/guide.rst:790
+msgid "If you did not receive an email upon registering or resetting your password, follow the steps below to troubleshoot the issue. 1. Refresh your inbox. It might take a few minutes for email to appear. 2. Check your spam/junk folder. 3. Try to register again. You might have accidentally misspelled your email. 4. If the above steps did not solve your issues, please contact your system administrator or send and emails to [herams@who.int](mailto:herams@who.int). </details>"
+msgstr ""
+
+#: ../docs/guide.rst:797
+msgid "<details> <summary><b>How can I reset my password?</b> </summary> If you forgot your password, follow the instructions porvided [here](#rest-password) to reset your password."
+msgstr ""
+
+#: ../docs/guide.rst:802
+msgid "</details> <details> <summary><b>Data export is unreadable or contains weird characters</b></summary> If you open data downloaded from HeRAMS in Excel, you might experience an issue with special characters not being displayed correctly, resulting in unreadable text. For example, instead of *camp de réfugiés* you get *Camp de rÃ©fugiÃ©s*. The reason for this is that Excel not using the correct encoding type to read you data. To correct the issue, follow the instruction outlined [here](#data-encoding-in-excel)."
+msgstr ""
+
+#: ../docs/guide.rst:809
+#: ../docs/guide.rst:818
+msgid "</details>"
+msgstr ""
+
+#: ../docs/guide.rst:812
+msgid "<details> <summary><b>Why can't I access the project dashboard</b></summary>"
+msgstr ""
+
+#: ../docs/guide.rst:815
+msgid "For data protection reasons, access to the project dashbaords is only granted upon request. If you require access to a project, please contact the country focal point or send an email to [herams@who.int](mailto:herams@who.int), specifying why you require access to the project."
+msgstr ""
+
+#: ../docs/guide.rst:820
+msgid "<details> <summary><b>Who has access to our dashboard or workspace</b></summary> In-country administrators and users responsible for a project or workspace can verify the list of users having access to the project and/or workspace as well as their permission levels. See chapter 4 on more information on sharing [project](#projects) and [workspaces](#workspaces). </details>"
+msgstr ""
+
+#: ../docs/guide.rst:827
+msgid "<details> <summary><b>Edits/updates to a health facility don't appear on the dashboard</b></summary> It is important to note that the data displayed on the interactive dashboards are only synchronized every 30 minutes. Thus, is it is possible that updates to the data don't show immediately on the dashboards. To solve the issue, manually sync the data cache of the workspace. For more information on data caching read the section on [Workspaces](#workspaces). </details>"
+msgstr ""
+
