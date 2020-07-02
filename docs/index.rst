@@ -1,5 +1,5 @@
 
-
+  
 
 .. image:: media/img/HeRAMS.png
    :height: 100px
@@ -78,14 +78,14 @@ In case you forgot your password, the instructions below will guide you through 
    :height: 200px
    :align: center
 
-4. Enter your email address in the designated field and click the |submit-en| button.
-8. You will receive an email with a password reset link. Click the link in the email to open the password reset page. 
+3. Enter your email address in the designated field and click the |submit-en| button.
+4. You will receive an email with a password reset link. Click the link in the email to open the password reset page. 
 
 .. note:: If you did not receive this email within a few minutes, check your spam folder.
 
-7. On the page that opens, enter your new password. 
-8. Click the |reset_password-en| button to confirm your new password.
-9. You have now successfully changed your password. To access the HeRAMS platform, return to the `sign in page <https://herams.org>`_ and enter your credentials.
+5. On the page that opens, enter your new password. 
+6. Click the |reset-password| button to confirm your new password.
+7. You have now successfully changed your password. To access the HeRAMS platform, return to the `sign in page <https://herams.org>`_ and enter your credentials.
 
 .. image:: media/vid/HeRAMS_reset_password.gif
    :alt: Password reset
@@ -113,6 +113,34 @@ Change Password
    :alt: change password video
    :align: center
    :height: 300px
+   
+   
+   
+Icons and Their Meaning
+-----------------------
+
+* |favorites| **Favorites**
+* |settings| **Settings**
+* |question-mark| **Questions**
+
+* |refresh| **Refresh Data Cache**: This button allows users to manually refresh the data cache of a workspace. Data is automatically refreshed every 30 minutes. This means if a record is updated, the changes are not immediately reflected on the dashboard. Thus, by manually refreshing the data cache of a workspace the time lag limitation can be overcome and the changes made will become visible immediately.
+* |pencil-thin| **Update Workspace**:  allows to change the title or token of a workspace.
+* |share-icon| **Share Workspace**: To grant a user access to workspace, the workspace must be shared with the user. For more information on how to add users to a workspace click `here <#add-a-user-to-a-workspace>`__.
+* |delete-black| **Delete Workspace**: Permanently removes a workspace from a project. See `Delete a Workspace`_ for more information.
+* |download| **Download Data**: Downloads all records belonging to the selected workspace. See `Download Data`_ for more information.
+* |pencil-black| **Data Update**: This opens the data edit interface. More information on data editing and updating is available `here <#edit-date>`__.
+
+.. note: The number of buttons visible to users depends on your access rights and might vary from one workspace to another.
+
+* |workspace| **Workspaces**: This opens the list of all available workspace belonging to the project. See `here <#workspaces>`__ for more information on workspaces. 
+* |dashboard| **Dashboard**: By clicking the dashboard icon, the `Project Dashboard`_ will be opened.
+* |pencil-thin| **Edit Project Properties**: Permits users with specific permission to alter the project properties as well as to configure the project dashboard. See `Modify a Project`_ for more information on editing the project properties. For additional information on how to configure the dashboard, consult the section `Configure the Project Dashboard`_.
+* |check| **Check Data**: Can be used for a quick review of the data to identify invalid responses.
+* |share-icon| **Share**: The sharing function is used to grant users access to a project. See `below <#add-a-user-to-a-project>`__ for further details.
+
+  .. note: The number of buttons visible to users depends on your access rights to a specific project is likely to vary from one project to another.
+
+
 
 World map
 =========
@@ -171,8 +199,8 @@ Customizing a dashboard
 -------------------------
 This section provides a few tips and tricks on how to customize the dashboard by applying filters and alter some of default display options.
 
-Filtering data
-~~~~~~~~~~~~~~
+### Filtering data
+//~~~~~~~~~~~~~~
 
 Data on the dashboard can be filtered. This allows you to scrutinize the data subsets that are of interest to you.
 
@@ -357,7 +385,24 @@ This chapter is intended for data managers responsible to update the HeRAMS data
 
 Access your workspace
 --------------------------------
+HeRAMS uses the concept of workspaces to manage user permissions. 
+Each workspace consists of several health facilities and has a dedicated focal point responsible for updating these records. 
+A workspace might, for example, include all MoSDs of a geographical region, MoSDs managed by a specific partner or any other logical category. 
+Thus, the use of workspaces in combination with different levels of permissions (see below) assures granular, role-based access control to a project and the underlying data. 
+While most users only have access to a single workspace, project administrators might have access to several or all workspaces.
+
 HeRAMS uses so-called **Workspaces** to manage access permission to the underlying data. A workspace represents for example, a specific organization or a geographic region. For more information on **Workspaces** click `here <#workspaces>`__.
+
+**
+Each table provides information on the last time data was synced with the underlying database, the number of contributors, health facilities and responses. 
+**
+
+	  .. image:: media/img/HeRAMS_popup_workspaces.png
+	:height: 150px
+	:alt: share workspace
+	:align: center
+
+
 
 1. Open the project summary pop-up by selecting your project from the navigation pane on the left. Alternatively, you can open the project summary by clicking the corresponding blue dot on the world map.
 2. Click the |workspace-bt| button on the bottom right corner of the pop-up.
@@ -503,44 +548,139 @@ The below instructions guide users through the steps to define the data encoding
 HeRAMS Administration
 =====================
 
-This chapter provides an overview of the admin pages in HeRAMS and offers step-by-step instructions for common tasks performed by advanced users and project administrators. The first part of the chapter introduces the concept of `Workspaces`_ while the second part focuses on `Projects`_ level administration and the configuration of project specific `Project Dashboard`_.
+This chapter provides an overview of the admin pages in HeRAMS and offers step-by-step instructions for common tasks performed by advanced users and project administrators. 
+
+The first part of the chapter provides an overview of the default HeRAMS **User roles** that are used throught the platfrom. 
+
+ introduces the concept of `Workspaces`_ while the second part focuses on `Projects`_ level administration and the configuration of project specific `Project Dashboard`_.
 
 .. note:: If you require your permissions to be changed, kindly contact your country focal point or send an email to `HeRAMS Support Team <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation of why you would like your access permissions to altered.
 
 
-Workspaces
+User Management
 ----------
-
-HeRAMS uses the concept of workspaces to manage user permissions. Each workspace consists of several health facilities and has a dedicated focal point responsible for updating these records. A workspace might, for example, include all MoSDs of a geographical region, MoSDs managed by a specific partner or any other logical category. Thus, the use of workspaces in combination with different levels of permissions (see below) assures granular, role-based access control to a project and the underlying data. While most users only have access to a single workspace, project administrators might have access to several or all workspaces.
-
-* |refresh| **Refresh Data Cache**: This button allows users to manually refresh the data cache of a workspace. Data is automatically refreshed every 30 minutes. This means if a record is updated, the changes are not immediately reflected on the dashboard. Thus, by manually refreshing the data cache of a workspace the time lag limitation can be overcome and the changes made will become visible immediately.
-* |pencil-thin| **Update Workspace**:  allows to change the title or token of a workspace.
-* |share-icon| **Share Workspace**: To grant a user access to workspace, the workspace must be shared with the user. For more information on how to add users to a workspace click `here <#add-a-user-to-a-workspace>`__.
-* |delete-black| **Delete Workspace**: Permanently removes a workspace from a project. See `Delete a Workspace`_ for more information.
-* |download| **Download Data**: Downloads all records belonging to the selected workspace. See `Download Data`_ for more information.
-* |pencil-black| **Data Update**: This opens the data edit interface. More information on data editing and updating is available `here <#edit-date>`__.
-
-.. note: The number of buttons visible to users depends on your access rights and might vary from one workspace to another.
 
 Workspace Permissions
 ~~~~~~~~~~~~~~~~~~~~~
 
-There are two permission levels for workspaces:
+Granting a users permission to a workspace enables them to contribute or download data, as well as as to manage user access to their workspace. There are four permissions for workspaces that can be assigned independently:
 
-1. access to manage the underlying responses’ data; and
-2. full access (includes editing the workspace properties, token and responses’ data).
+**Edit data**: Allows user to create, edit and delete records.
 
-Users with the role of **Data Editor** have access to update the response data (option 1) while **Workspace Owners** might be given elevated permission (option 2) allowing them to add additional users to their workspace as well as to manage the underlying response data.
+**Download data** Enables users to download all records from a workspace for further analysis in external applications. 
 
-Add a User to a Workspace
-~~~~~~~~~~~~~~~~~~~~~~~~~
+**Manage users**: Permits users to share access to a workspace with other users.
 
-1. To grant a user access to a workspace, open the admin interface by clicking the |settings| icon in the top right corner of the screen.
-2. In the navigation pane on the left, click `Projects <https://herams.org/project/index>`__ to open the **Projects** overview table. 
-3. In the rightmost column of the table, you should see several **Action** buttons. Click the |workspace| icon. This will open the workspace of the selected project.
-4. You should now see a table with all workspaces of your project. For each workspace the table provides information on the last time data was synced with the underlying database, the number of contributors, health facilities and responses. Alike the **Projects** table, the last column contains several **Action** buttons.
-5. To grant a user access to a workspace (e.g. to update the data), you have to share the workspace with them. Click the |share-icon| icon in the **Actions** column.
-6. You should now see a page similar to the image below. On the bottom half of the page, you can see a list of all users currently having access to the workspace including their permission level. In the top half of the page, you have the option to add a new user. Start typing the user’s name in the top field. You will notice that the list of available users dynamically filters as you are typing. Select the user you would like to add.
+**Grant admin permissions**: This permission is only available to *Project administrators* and should only be granted to *Workspace owners* responsible for managing a workspace. By granting a user admin permission to a workspace, the user will be able to grant other users permission to share access to the workspace. Thus, this permission should be used very carefully. 
+
+  .. Note: The permission a user can share are depending on a users own permissions. Thus, it is possible that a user with the permission to 
+
+**Manage users** is not able to grant access to edit data. 
+
+Workspace permission should always be assigned in with regard to the a users roles. The below screenshots indicate the level of permissions that should be granted to the respective user. 
+For further details on the standard HeraMS user roles, please consult the `previous section <#user-roles>`__.
+
+
+Project Permissions
+~~~~~~~~~~~~~~~~~~~~~
+
+Similar to workspace permissions, permissions can also be granted at the project level. It is important to notice that if permissions are granted at the *Project level*, users are being granted access to all workspaces. For example, if a user is granted *Edit* permission at the *Project level*, they can edit data for all workspace. In contrast, if a user is granted access at the *Workspace level*, they are only able to contribute data to that specific workspace.
+
+There are five permissions that can be granted at the project level.
+
+**View dashboard**: Grants access exclusively to the *Project Dashboard*. Granting users explicit access to the *Project Dashboard* is only required for *Closed* or *Private* projects. For all other projects, any user subscribed to the platform will be able to view the *Project Dashboard*. 
+
+**Edit data**: Allows user to create, edit and delete records in any workspace of the project. 
+
+**Download data**: Enables users to download  the entire dateset, including records from all workspace for further analysis in external applications. 
+
+**Manage workspaces** grants a user access to create, modify and delete workspaces as well as the ability to invite users to contribute to individual worksapace. 
+
+.. Warning: *Workspace Owners* must be granted permission at the workspace level. If a user is granted permissions to *Manage workspaces* they will have access to **all** workspaces.
+
+**Configure dashboard**: grants users the ability to edit and configure their *Project Dashboard*. 
+
+
+
+HeRAMS User Roles
+~~~~~~~~~~~~~~~~~
+
+There six standard roles that are used accross HeRAMS projects. 
+
+  .. image:: media/img/HeRAMS_user_roles.png.png
+	:height: 200px
+	:alt: share workspace
+	:align: center
+	
+
+**Project Owner**: Designated person who is responsible for the HeRAMS project. They can invite users to view the project dashboard or the list of available workspaces but are not expected to conduct the daily activities of managing users and assuring data quality.
+
+**Project Admin**: The *Project Owner* typically relies on an Information Management Officer to manage the daily activities of the HeRAMS Project and assigns them the role of *Project Admin*. The *Project Admin* has access to all workspaces. Depending on the project setup, they might also be assigned to configure the project dashboard. While *Project Admins* are responsible for the overall training and management of users, they can assign *Workspace Owners* to manage individual workspaces.
+
+**Workspace Owner:** are commonly at the sub-national level, overseeing data collection for a specific area (e.g. a district). They have full control over their workspace and can invite other users to contribute to their workspace. It is important to notice that *Workspace Owners* can only edit or share access to the workspaces they own. However, like any user having been granted access to a project, they can explore data from other workspaces using the project dashboard.
+
+**Data Contributor:** Support the workspace owner in collecting and managing information on individual health facilities. Alike *Workspace Owners* they can only edit data within their workspace but are able to view the overall project by accessing the project dashboard.
+
+**Data Viewers**: In exceptional situations, a user might be granted role of *Data Viewer*. This means they are granted access to download the workspace data but are unable to edit data. Alike all users having been granted access to a project, they are also able to access the project dashboard. 
+
+**Project Viewer:** The role of *Project Viewer* is intended for users at any level who rely on HeRAMS data for their own work. Their access is limited to the project dashboard and the list of available workspace.
+
+.. Note: If a project is set to **Private** or **Closed** access to the project dashboard can be further restricted. Please consult `Project Settings` for further information on project statuses. 
+
+
+Mapping User Roles to Permissions
+"""""""""""""""""""""""""""""""""
+
+**Data contributors**: *Data Contributors* are granted access to *Edit Data* for individual workspaces.
+
+  .. image:: media/img/HeRAMS_permissions_data_contributor1.png
+	:height: 200px
+	:alt: share workspace
+	:align: center
+	
+Optionally, *Data Contributors* can also be granted permissions to download data.
+
+  .. image:: media/img/HeRAMS_permissions_data_contributor2.png
+	:height: 200px
+	:alt: share workspace
+	:align: center
+
+**Data Viewers**: t is possible to grant a users access to download data without providing them with edit rights. While this permission is commonly combined with access to *Edit Data*, under special circumstances, access might be granted to download data only. 
+
+  .. image:: media/img/HeRAMS_permissions_data_viewer.png
+	:height: 200px
+	:alt: share workspace
+	:align: center
+
+**Workspace Owners**: In addition to editing and downloading data, *Workspace Owner* are granted the permission to *Manage Users*. This grants them the ability to invite other users to contribute to their workspace.
+
+  .. image:: media/img/HeRAMS_permissions_workspace_owner.png
+	:height: 200px
+	:alt: share workspace
+	:align: center
+
+Under special circumstance a *Project Admin* might grant a *Workspace Owner* admin permission to a workspace, allowing the *Workspace Owner* to delegate managing user access for their workspace. This permission should be used carefully and only granted if absolutely necessary. 
+
+  .. image:: media/img/HeRAMS_permissions_workspace_owner2,png
+	:height: 200px
+	:alt: share workspace
+	:align: center
+	
+.. Warning: While a *Workspace Owner* may delegate granting access permissions to another user, they remain responsible for their workspace and users having access to it. 
+
+
+
+Add a User
+~~~~~~~~~~
+
+1. To grant a user access to a workspace or project, navigate to the list of workspace or projects, respectively. 
+For more details see `<access-your-workspace>`__ or `<access-your-project>`__ 
+	
+2. You should now see a table similar to the image below. In the right-most column of your table you should see one or several icons. Click the |share-icon|. This will the user management page. For all full list of icons and their meanings got `<#icons-and-their-meanings`__.  
+
+3. To grant a user access to a workspace or project, you have to *share* it with them. 
+
+4. You should now see a page similar to the image below. On the bottom half of the page, you can see a list of all users currently having access to the workspace including their permission level. In the top half of the page, you have the option to add a new user. Start typing the user’s name in the top field. You will notice that the list of available users dynamically filters as you are typing. Select the user you would like to add.
   
   .. image:: media/img/HeRAMS_workspace_share.png
 	:height: 200px
@@ -551,30 +691,53 @@ Add a User to a Workspace
 
   .. note: If you cannot find a user, it means the user has not yet created an account. Ask the user to create an account by registering on the HeRAMS platform and then retry. Should the issue persist, contact your system administrator or send an email to `herams@who.int <mailto:herams@who.int?>`_.
 
-7. Use the checkboxes to select the appropriate permission level. See `above <#workspace-permissions>`__ for further details on workspace permissions.
-8. Click the |share-button| button to share the workspace with the selected user(s).
+5. Use the checkboxes to select the appropriate permission level. See `<#workspace-permissions>`__ or `<#project-permissions>`for further details on workspace permissions.
+
+6. Click the |share-button| button to grant users the desired permissions.
+
 
 .. image:: media/vid/HeRAMS_workspace_share.gif
     :height: 300px
 	:alt: share-workspace
 	:align: center
-
-Remove a User from a Workspace
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. To remove a user from a workspace, navigate to the workspace from which you would like to remove the user. (Follow steps 1 - 5 outlined `above <#add-a-user-to-a-workspace>`__ to access the workspace).
-2. On the second half of the page you will see a list of all users having access to the workspace. Click the |delete-black| icon to remove the user permanently.
-
+	
+	
 Change a User's Workspace Permission
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. To change a user's permission, remove the user from the workspace as outlined `above <#remove-a-user-from-a-workspace>`__.
-2. Now add the user again using the new permission level (see `Add a User to a Workspace`_ for details).
+1. Follow the instructions outlined  `above <#add-a-user>`__ to open the user management interface of your workspace or project. 
+2. On the second half of the page you will see a list of all users having access to the workspace or project, including their permissions.
+3. You can change a users permission by flipping the corresponding switch button to **Allowed** or **Denied**. 
 
-Create a New Workspace
+.. image:: media/vid/HeRAMS_change_permissions.gif
+    :height: 300px
+	:alt: change-permissions
+	:align: center
+	
+	
+Remove a User from a Workspace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Open the user management interface of your *Workspace* or *Project*. See `here <#add-a-user>`__ for more details on how to access the user management interface. 
+2. On the second half of the page you will see a list of all users having access to the workspace or project, including their permissions.
+3. To remove a user change all permissions to **Denied**. Upon reloading the page, you will see that the user has disappeared from the list.  
+
+.. image:: media/vid/HeRAMS_remove_user.gif
+    :height: 300px
+	:alt: remove-user
+	:align: center
+
+.. Note: Removing a user from a **Workspace** will not revoke their **Project** level permissions and vice versa. 
+
+
+Manage Workspaces
+-----------------
+Managing the list of available workspaces is key component of the *Project Admin's* role. In addition to being able to create, edit or delete workspaces, managing workspaces also includes assigning *Workspace Owners* and granting them appropriate permissions. 
+
+Create a Workspace
 ~~~~~~~~~~~~~~~~~~~~~~
 
-1. To create a new workspace, access the workspace page of your project. (Follow steps 1 - 5 outlined `above <#add-a-user-to-a-workspace>`__ to access the workspace).
+1. To create a new workspace, access the workspace page of your project. See `<access-your-workspace>`__ for more detailed instructions.
 2. In the upper left corner, you will see a button labelled |create-workspace|.
 3. On the page that opens, you should now be able to create a new workspace.
 4. Enter the workspace's name into the title field.
@@ -587,15 +750,36 @@ Create a New Workspace
      
   .. Note: Tokens are unique identifiers that link health facilities to workspaces. To add a health facility to a workspace the token of the record in question has to be manually changed. Contact your system administrator for guidance on how to change a record's token.
 
+Rename a Worksapce
+~~~~~~~~~~~~~~~
+
+1. To rename a workspace, access the workspace page of your project. See `<access-your-workspace>`__ for more detailed instructions. 
+2. Open the *Workspace settings* by click the |pencil-thin| icon next to your workspace's name.
+3. You should now be able to modfiy the Title of your workspace. Remember to click |save| in order for your changed to be implemented.
+
+  .. Warning: Do not modify tokens without discussing it with a *Global Administrator*. Please contact herams@who.int for information.
+
 Delete a Workspace
 ~~~~~~~~~~~~~~~~~~~
 
-1. You can remove a workspace by clicking the |delete-black| icon in the **Actions** column next to the selected workspace.
-   
-  .. note: Deleting workspace will not affect the underlying data. See the `Delete a health facility`_ to learn how to permanently a record from your project.
+1. To remove a workspace from the list of workspaces, access the workspace page of your project. See `<access-your-workspace>`__ for more detailed instructions. 
+2. You can now remove a workspace by clicking the |delete-black| icon in the **Actions** column next to the selected workspace.
+
+ 
+Manage a Project
+---------------
+
+To obtain
+
+Modify a Project
+~~~~~~~~~~~~~~~~
+
+1. To modify the project properties, open the admin interface by clicking the |settings| button in the top right corner of the page.
+  
+2. Open the **Projects** page by selecting `Projects <https://herams.org/project/index>`_ in the navigation pane on the left.
 
 
-Projects
+
 --------
 
 The `Projects <https://herams.org/project/index>`_ page provides a brief overview of all projects available on the HeRAMS platform. 
@@ -604,103 +788,53 @@ The `Projects <https://herams.org/project/index>`_ page provides a brief overvie
   	:height: 300px
 	:align: center
 	
-* |workspace| **Workspaces**: This opens the list of all available workspace belonging to the project. See `here <#workspaces>`__ for more information on workspaces. 
-* |dashboard| **Dashboard**: By clicking the dashboard icon, the `Project Dashboard`_ will be opened.
-* |pencil-thin| **Edit Project Properties**: Permits users with specific permission to alter the project properties as well as to configure the project dashboard. See `Modify a Project`_ for more information on editing the project properties. For additional information on how to configure the dashboard, consult the section `Configure the Project Dashboard`_.
-* |check| **Check Data**: Can be used for a quick review of the data to identify invalid responses.
-* |share-icon| **Share**: The sharing function is used to grant users access to a project. See `below <#add-a-user-to-a-project>`__ for further details.
 
-  .. note: The number of buttons visible to users depends on your access rights to a specific project is likely to vary from one project to another.
 
-Add a User to a Project
-~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. To grant a user access to a specific project, open the admin interface by clicking the |settings| button in the top right corner of the screen.
-2. In the navigation pane on the left, click `Projects <https://herams.org/project/index>`_ to display the list of all available projects.
-3. In the last of the table, you have several action buttons. Click the |share-icon| icon.
-4. You should now see a page similar to the image shown below. On the bottom half of the screen you can see a list of all users currently having access to this project and their permission level. In the top half the page you have the option to add a user. Start typing the users name in the top field. You will notice that the list of users is dynamically filtering. Select the user you would like to add.
-
-  .. image:: media/img/HeRAMS_project_share.png
-  	:height: 300px
-	:alt: share project
-	:align: center
-
-  .. tip: You can add multiple users add once as shown in the image above.
-
-  .. note: If you cannot find a user, it means the user has not yet created an account. Ask the user to create an account by registering on the HeRAMS platform and then retry. Should the issue persist, contact your system administrator or send an email to `herams@who.int <mailto:herams@who.int?>`_.
-
-5. Use the checkboxes to select the appropriate permission level. See `above <#project-permissions>`__ for further details on project level permissions.
-6. Click the |share-button| button to share the project with the selected user(s).
-
-  .. image:: media/vid/HeRAMS_project_share.gif
-    :height: 300px
-    :alt: share project
-    :align: center
-    
-    
-Remove a User from a Project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. To remove a user from a Project, follow steps 1-3 outlined in the `previous section <#add-a-user-to-a-project>`__ to access the project sharing page.
-2. On the second half of the page you will see a list of all users having access to the workspace. Click the |delete-black| icon to remove the user permanently.
-
-Change a User's Project Permissions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. To change a user's permission, remove the user from the project as outlined `above <#remove-a-user-from-a-project>`__
-2. Now add the user again using the new permission level (see `Add a User to a Project`_ for details).
-
-Modify a Project
-~~~~~~~~~~~~~~~~
-
-1. To modify the project properties, open the admin interface by clicking the |settings| button in the top right corner of the page.
-  
-2. Open the **Projects** page by selecting `Projects <https://herams.org/project/index>`_ in the navigation pane on the left.
-3. Click the |pencil-thin| icon in the **Actions** column of your project. This will open the project properties page.
-4. You should now see a page similar to the one displayed below, which permits you:
-
-	* to update the project title;
-	* to alter the survey linked to this project;
-	* to change the centroids (latitude and longitude) of the blue dot shown on the world map;
-	* to update the status of the project;
-	* to configure the pop-up information displayed on the main page; and
-	* to configure the project dashboard. Additional information on how to configure the project dashboard is available `here <#configure-the-project-dashboard>`__.
-5. Make sure you save your changes by clicking the |update-project| button.
 
 Configure the Project Dashboard
 -------------------------------
 
 For each HeRAMS Project, an interactive dashboard can be configured providing summarizing key indicators and findings of a project. This section provides project administrators with a detailed description on how to edit these dashboards. An overview of the standard dashboard pages is available `here <#default-dashboard-pages>`__.
     
-Modify an Existing Dashboard Element
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create Dashboard Pages
+~~~~~~~~~~~~~~~~~~~~~
 
-Users with the permissions to edit dashboards can modify charts and maps directly from within the dashboard.
+1. To add a new page to a dashboard, open the Project's property page. (Follow steps 1 - 3 in the `Modify a Project`_ section.
+2. You should now see a page similar to the one displayed below.
 
- .. tip: To modify the order of dashboard pages or rename a page, see `here <#update-a-dashboard-page>`_.
-   
-1. Open the dashboard and navigate to the element you would like to change.
-2. In the top right corner of the element you would like to change, you should see a |pencil-thin| icon. Right-click the icon to open the element's configuration page.
-3. You should now be able:
+.. image:: media/img/HeRAMS_dashboard_create_page.png
+	:height: 250px
+	:alt: create-dashboard-page
+	:align: center
 
-	- to change the variables displayed;
-	- to change the colors of a map or a chart; and
-	- to rename the element.
+3. Enter the page name in the top field.
+4. For sub-pages, select the parent page from the **Parent Id** drop-down list. For all other pages select **No parent**.
+5. Define the page order by entering a **Sort** index. Increment the index by 1 for each new page, starting with **0** for the first page.
+6. Click the |create-page| button to add the page to the dashboard.
+7. If you return to the previous page, you will see the page appearing in the list of available pages.
 
-  .. note: See the section `below <#add-a-new-element-to-a-page>`_ for further details on how to create and modify dashboard elements.
+  .. note: You only created an empty page. To add elements to your page, see section `Add a New Element to a Page`_.
 
-4. Save your changes by clicking the |update-element| button.
+Modify Dashboard Pages
+~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: media/vid/HeRAMS_edit_dashboard_element.gif
-   :height: 300px
-   :alt: edit_dashboard
-   :align: center
+1. To alter an existing page, click the |pencil-black| icon next to the page's name. This will open the page's settings. You are now able to change the title and the order of the page. See `above <#add-a-new-page-to-a-dashboard>`__ for further details.
+2. On the page that opens, you should now be able to alter the page name and the display order.
+3. Save your changes by clicking the |update-page| button.
 
-Add a New Element to a Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Delete Dashboard Pages
+~~~~~~~~~~~~~~~~~~~~~
+
+1. To delete a dashboard page, open the Project's property page. (Follow steps 1 - 3 in the `Modify a Project`_ section.
+2. In the list of available page, use the |delete-black| icon next to the page you would like to delete.
+
+  .. warning:: Be careful when deleting pages or elements. Deleting dashboard pages will permanetly delete the page including potential sub-pages. 
+
+Create Dashboard Elements
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 This section covers the steps required to add a new element to an existing dashboard page. If you would like to extend your dashboard by adding additional pages, please see `Add a New Page to a Dashboard`_ for further information.
-
 
 1. Open the Project's property page (Follow steps 1 - 3 in the `Modify a Project`_ section.
 2. In the bottom half of the page you will see a list of all available dashboard pages. For each page, the table displays the:
@@ -752,9 +886,32 @@ This section covers the steps required to add a new element to an existing dashb
 
 14. Finally, click the |create-element-blue| button to add the element to the dashboard page.
 
+Modify Dashboard Elements
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Remove an element from the dashboard
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Users with the permissions to edit dashboards can modify charts and maps directly from within the dashboard.
+
+ .. tip: To modify the order of dashboard pages or rename a page, see `here <#update-a-dashboard-page>`_.
+   
+1. Open the dashboard and navigate to the element you would like to change.
+2. In the top right corner of the element you would like to change, you should see a |pencil-thin| icon. Right-click the icon to open the element's configuration page.
+3. You should now be able:
+
+	- to change the variables displayed;
+	- to change the colors of a map or a chart; and
+	- to rename the element.
+
+  .. note: See the section `below <#add-a-new-element-to-a-page>`_ for further details on how to create and modify dashboard elements.
+
+4. Save your changes by clicking the |update-element| button.
+
+.. image:: media/vid/HeRAMS_edit_dashboard_element.gif
+   :height: 300px
+   :alt: edit_dashboard
+   :align: center
+
+Delete Dashboard Elements
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Open the Project's property page (Follow steps 1 - 3 in the `Modify a Project`_ section.
 2. In the bottom half of the page you will see a list of all available dashboard pages. Click the |pencil-thin| icon to open the page you would like to modify.
@@ -762,39 +919,6 @@ Remove an element from the dashboard
 
   .. warning:: Be careful when deleting dashboard elements. Deleted elements cannot be restored.
 
-Add a New Page to a Dashboard
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. To add a new page to a dashboard, open the Project's property page. (Follow steps 1 - 3 in the `Modify a Project`_ section.
-2. You should now see a page similar to the one displayed below.
-
-.. image:: media/img/HeRAMS_dashboard_create_page.png
-	:height: 250px
-	:alt: create-dashboard-page
-	:align: center
-
-3. Enter the page name in the top field.
-4. For sub-pages, select the parent page from the **Parent Id** drop-down list. For all other pages select **No parent**.
-5. Define the page order by entering a **Sort** index. Increment the index by 1 for each new page, starting with **0** for the first page.
-6. Click the |create-page| button to add the page to the dashboard.
-7. If you return to the previous page, you will see the page appearing in the list of available pages.
-
-  .. note: You only created an empty page. To add elements to your page, see section `Add a New Element to a Page`_.
-
-Update a Dashboard Page
-~~~~~~~~~~~~~~~~~~~~~~~
-
-1. To alter an existing page, click the |pencil-black| icon next to the page's name. This will open the page's settings. You are now able to change the title and the order of the page. See `above <#add-a-new-page-to-a-dashboard>`__ for further details.
-2. On the page that opens, you should now be able to alter the page name and the display order.
-3. Save your changes by clicking the |update-page| button.
-
-Delete a Dashboard Page
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-1. To delete a dashboard page, open the Project's property page. (Follow steps 1 - 3 in the `Modify a Project`_ section.
-2. In the list of available page, use the |delete-black| icon next to the page you would like to delete.
-
-  .. warning:: Be careful when deleting pages or elements. Deleting dashboard pages will permanetly delete the page including potential sub-pages. 
 
 FAQ
 ===
@@ -1001,6 +1125,12 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :height: 1.5em
    :alt: refresh
    :align: top  
+
+.. |reset-password| image:: media/img/request-access.png
+   :height: 1.5em
+   :alt: refresh
+   :align: top  
+
 
 .. |share-icon| image:: media/img/icon_share.png
    :height: 1.5em
