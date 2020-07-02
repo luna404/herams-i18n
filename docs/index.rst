@@ -607,9 +607,9 @@ HeRAMS User Roles
 
 There six standard roles that are used accross HeRAMS projects. 
 
-  .. image:: media/img/HeRAMS_user_roles.png.png
+  .. image:: media/img/HeRAMS_user_roles.png
 	:height: 200px
-	:alt: share workspace
+	:alt: user roles
 	:align: center
 	
 
