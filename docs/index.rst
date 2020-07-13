@@ -376,37 +376,31 @@ The **Service Availability** page displays multiple pages per type of service. E
    :align: center
 
 
-Edit Data
-=========
+Contribute Data
+===============
 
-This chapter is intended for data managers responsible to update the HeRAMS data. It covers all aspects related to data editing, including registering new health facilities, updating the status of existing health facilities as well as deleting erroneous records (e.g. duplicates). 
+This chapter is intended for data managers responsible to update HeRAMS data. It covers all aspects related to data editing, including registering new health facilities, updating the status of existing health facilities as well as deleting erroneous records (e.g. duplicates). 
 
-.. note:: Access to the data edit interface is limited to users responsible to update the data. If you require your access permissions to be changed, kindly contact your country focal point or send an email to `herams@who.int <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation on why you would like your access permissions to altered.
+.. note:: Access to the data edit interface is limited to users responsible to update the data. If you require your access permissions to be changed, kindly contact the *Workspace Owner*, your *Project Admin* or send an email to `herams@who.int <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation on why you would like your access permissions to altered.
 
 Access your workspace
 --------------------------------
-HeRAMS uses the concept of workspaces to manage user permissions. 
-Each workspace consists of several health facilities and has a dedicated focal point responsible for updating these records. 
-A workspace might, for example, include all MoSDs of a geographical region, MoSDs managed by a specific partner or any other logical category. 
-Thus, the use of workspaces in combination with different levels of permissions (see below) assures granular, role-based access control to a project and the underlying data. 
-While most users only have access to a single workspace, project administrators might have access to several or all workspaces.
-
-HeRAMS uses so-called **Workspaces** to manage access permission to the underlying data. A workspace represents for example, a specific organization or a geographic region. For more information on **Workspaces** click `here <#workspaces>`__.
-
-**
-Each table provides information on the last time data was synced with the underlying database, the number of contributors, health facilities and responses. 
-**
-
-	  .. image:: media/img/HeRAMS_popup_workspaces.png
-	:height: 150px
-	:alt: share workspace
-	:align: center
-
+HeRAMS uses so-called *Workspaces* to manage access permission to the underlying data.
+A workspace may include all health facilities of a geographical region, health facilities managed by a specific partner or any other logical category. 
+Each workspace has a dedicated focal point, the *Workspace Owner*, who is responsible for updating and maintaining health facility records of their workspace. 
+*Workspace Owners* may invite additional users to contribute to their data. 
+For more information on how to grant users access to workspace please view the `User_management`__ section. 
 
 
 1. Open the project summary pop-up by selecting your project from the navigation pane on the left. Alternatively, you can open the project summary by clicking the corresponding blue dot on the world map.
 2. Click the |workspace-bt| button on the bottom right corner of the pop-up.
 3. This opens the list of available workspace of the selected project. For each project, the table displays the number **Workspaces**, **Contributors**, **Health facilities** and **Responses**.
+  
+.. image:: media/img/HeRAMS_popup_workspaces.png
+	:height: 150px
+	:alt: share workspace
+	:align: center
+
   
 .. tip:: The number of responses can be higher than the total number of health facilities. This indicates that a health facility was assessed multiple times.
 
@@ -431,53 +425,90 @@ The video below summarizes the steps to access the data entry interface.
 Edit a Health Facility Record
 -----------------------------
 
-.. Caution:: Editing a record will overwrite the existing record. If you would like to update the status of a health facility while keeping the history of changes, follow the instructions in the section below.
+.. Caution:: Editing a record will overwrite the existing record. If you would like to update the status of a health facility while keeping the history of changes, follow the instructions in the section `below <#add_a_response_to_a_health_facility_record>`__..
 
 1. Open the data update interface as outlined `above <#access-the-data-update-interface>`__.
-2. To edit a record, click the |pencil-blue| icon in the left most column.
+2. To ease navigation, records are grouped by health facility. To edit a specific response, you first have to expand the health facility by clicking anywhere in the corresponding row.
  
 .. tip:: Keep in mind that the table might have multiple pages. Use the button in the bottom right corner to advance to the next page. You can also reduce the number of records displayed by applying filters.
 
-.. image:: media/img/HeRAMS_data_update_table.png
+.. image:: media/img/data_update_interface.png
    :height: 300px
    :alt: update data table
    :align: center
-   
-3. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.
-4. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button.
-5. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
+ 
+3. You should now see a list of all responses belonging to the selected health facility. In the left-most column of the list, there are three buttons allowing to preform the following actions. 
+ 
+  - view |view-black|: Click this button to view the full response 
+  - edit |pencil-black| : Allows you to modify an existing response. This will permanently overwirte the exisitng infomration of a response and cannot be undone.
+  - delete |delete-black|: Permanently deletes a response form a health facility. See `Delete_a_response`__ for more information.
+ 
+ .. image:: media/img/HeRAMS_data_update_interface_action_buttons.png
+   :height: 300px
+   :alt: update data table
+   :align: center
+ 
+.. Note:: The number of action buttons visible depends on your project's settings.
+  
+4. To modify a record click the |pencil-black| icon in the *Actions* columns. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.
+5. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button.
+6. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
+
+.. note:: While your project may allow you to save your reponse and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
+
 
 .. image:: media/vid/HeRAMS_edit_health_facility.gif
    :height: 300px
    :alt: edit records
    :align: center
 
-Update a Health Facility Record
--------------------------------
+Add a Response to a Health Facility Record
+------------------------------------------
 
 If HeRAMS is used as a monitoring tool, you can record changes to a health facility while keeping the existing information.
 
-.. note:: The feature to update health facilities is not enabled in all projects. Contact your country focal point or send an email to `herams@who.int <mailto:herams@who.int?>`_ for further information.
+.. note:: The feature to update health facilities is not enabled in all projects. Contact your *Project Admin* or send an email to `herams@who.int <mailto:herams@who.int?>`_ for further information.
 
-1. To update the status of a health facility, use the |update-blue| button to open the record.
-2. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.
-3. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button.
-4. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
+1. To update the status of a health facility, open the `data update interface <#access-the-data-update-interface>`__.
+2. Click the health facility record you would like to add a response to. 
+4. You should now see the history of response to the selected health facility. To add a new response, click the |add-response| button in the action column. 
+
+ .. image:: media/img/HeRAMS_data_update_interface_add_responses.png
+   :height: 300px
+   :alt: update data table
+   :align: center
+
+5. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.
+6. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button.
+7. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
+
+.. note:: While your project may allow you to save your reponse and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make 
+sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
 
 
 Register a New Health Facility
 ------------------------------
 
-1. To create a new record, click the button |new-record|.
-2. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.   
+1. To register a new health facility, navigate to the data `update interface <#access-the-data-update-interface>`__.
+2. Click the |new-record| button in the top left corner. This will open a blank form, allowing you to register a new health facility.
+2. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.   
 3. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button. 
 4. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
 
+.. note:: While your project may allow you to save your reponse and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make 
+sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
 
-Delete a Health Facility Record
+Remove a Response from Health Facility 
 -------------------------------
 
-1. To delete a record, click the |delete-blue| icon in the first column.
+1. To delete a response from a health facility, open the `data update interface <#access-the-data-update-interface>`__ 
+and click the health facility record from which you would like to remove a response.
+2. You should now see the history of response to the selected record. To remove a specifc response, click the |delete-black| icon in the first column
+3. If you would like the completely remove a health facility, repeat the above step until all responses have been deleted.
+
+.. note:: Only delete an entire health facility record if you are sure that it was entered by mistake (e.g. duplicate entry).
+For health facility that are permanently closed, add a new response and change the status to "permanently closed". 
+
 
 .. Warning:: Deleting records cannot be undone. Be careful when deleting a record.
 
