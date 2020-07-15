@@ -10,17 +10,17 @@
 Introduction
 ============
 
-Welcome to the **HeRAMS User Guide**. This user guide was designed for users of the `HeRAMS platform <https://herams.org/>`_. It provides step-by-step instruction on how to register and access the platform as well as a brief overview on key components of the platform, including detailed information on how to explore the available data using the interactive dashboards. Data managers can find additional information on how edit data in the `Edit Data`_ section.
+Welcome to the **HeRAMS User Guide**. This user guide was designed for users of the `HeRAMS platform <https://herams.org/>`_. It provides step-by-step instruction on how to register and access the platform as well as a brief overview on key components of the platform, including detailed information on how to explore the available data using the interactive dashboards. Data managers can find additional information on how edit data in the `Contribute Data`_ section.
 For more advanced topics related to user management and project administration, please consult the `HeRAMS Administration`_ section.
 
-It should be noted that the guide only addresses issues related to the `HeRAMS platform <https://herams.org/>`_. 
+It should be noted that this guide only addresses issues related to the `HeRAMS platform <https://herams.org/>`_. 
 For general information on the HeRAMS approach and for technical guidance please consult the official `WHO HeRAMS webpage <https://www.who.int/hac/herams/en//>`_. For additional questions that are not covered in this guide, please contact the `HeRAMS Support Team <mailto:herams@who.int?>`_.
 
 
 Getting started
 ===============
 
-This chapter is intended for new users of the `HeRAMS platform <https://herams.org/>`_ platform. It covers all issues related to registering and accessing the platform as well as managing your user profile. To help you navigate the platform on your own, the last section of this chapter provides an explanation to the different icons used across the platform. 
+This chapter is intended for new users of the `HeRAMS platform <https://herams.org/>`_. It covers all issues related to `registering <#creating-a-user-account>`__ and `accessing <#logging-in>`__ the platform as well as managing your `user profile <#update-your-user-profile>`__. To help you navigate the platform on your own, the last part of this chapter provides an overview of `recurring icons <#icons-and-their-meanings>`__ used across the platform as well as some useful tips on how to use `Breadcrumbs`__ as an efficient way to navigate the platfrom. 
 
 
 Creating a User Account
@@ -31,14 +31,14 @@ Creating a User Account
 
 .. tip:: It is strongly recommended to either user FireFox or Chrome.
 
-2. In the lower half of the screen you should see an option to register as new user. Enter your email address and click the |register|.
+2. In the lower half of the screen you should see an option to register as new user. Enter your email address and click the |register-white| button.
 
 .. image:: media/img/HeRAMS_register.png
    :alt: HeRAMS Login
    :height: 150px
    :align: center
 
-4. A confirmation email will be sent to the email address you entered. Confirm your registration by clicking the link in your email.
+4. A confirmation email will be sent to the email address you entered. Confirm your registration by clicking the link in the email.
    
 .. tip:: If you don't receive a confirmation email within a few minutes, check your spam folder.
 
@@ -59,7 +59,7 @@ Logging in
 1. Open the link `herams.org <https://herams.org>`_ in your browser.
 2. Enter your email address and password in the designated fields in the top half of the page and click the |login| button.
 
-.. image:: media/img/HeRAMS_reset_password_link.png
+.. image:: media/img/HeRAMS_login.png
    :alt: HeRAMS Login
    :height: 200px
    :align: center
@@ -86,7 +86,7 @@ In case you forgot your password, the instructions below will guide you through 
    :height: 200px
    :align: center
 
-3. Enter your email address in the designated field and click the |submit-en| button.
+3. Enter your email address in the designated field and click the |request-password-reset| button.
 4. You will receive an email with a password reset link. Click the link in the email to open the password reset page. 
 
 .. note:: If you did not receive this email within a few minutes, check your spam folder.
@@ -128,7 +128,7 @@ For users having a browser language that is not supported by HeRAMS, the languag
 2. In the pop-up window that opens, navigate to the **Profile** tab.  
 3. Change the drop-down list to desired language and click the |update-profile| button.
 
-.. note:: HeRAMS will remember your language preferences next time you log-in. If you would like to change them, you must return to this page and update your user profile.
+.. note:: HeRAMS will remember your language preferences next time you log in. If you would like to change them, you must return to this page and update your user profile.
 
 
 .. image:: media/img/HeRAMS_language_settings.png
@@ -149,14 +149,14 @@ Icons and Their Meaning
 This section aims to provide an overview of key icons used accross the platfrom and explains their meanings.
 
 
-* |favorites| **Favorites**: This allows you to create a personal list of favorite workspaces, accessible directly from the world map. See `Favorites`__ to learn more about how to add worksapces to your list Favorites.
-* |settings| **Settings**: Use this button to access the HeRAMS admin interface. For more information on the HeRAMS admin interface is available in the `HeRAMS_Administration`__ chapter.
+* |favorites| **Favorites**: This allows you to create a personal list of favorite workspaces, accessible directly from the world map. See `Favorites`_ to learn more about how to add worksapces to your list Favorites.
+* |settings| **Settings**: Use this button to access the HeRAMS admin interface. For more information on the HeRAMS admin interface is available in the `HeRAMS Administration`_ chapter.
 * |user-guide| **User Guide**: Opens the HeRAMS user-guide.
 * |workspace| **Workspaces**: This opens the list of all available workspace of a project. See `here <#workspaces>`__ for more information on workspaces. 
 * |dashboard| **Dashboard**: Opens the `Project Dashboard`_.
-* |view-black| **View Response**: Grants you view access to a specific item or record. 
-* |pencil-black| **Edit**: Opens the data edit interface. More information on data editing and updating is available `here <#edit-date>`__.
-* |delete-black| **Delete**: Deletes a specific item or record. 
+* |view| **View Response**: Grants you view access to a specific item or record. 
+* |pencil| **Edit**: Opens the data edit interface. More information on data editing and updating is available `here <#edit-date>`__.
+* |delete| **Delete**: Deletes a specific item or record. 
 * |refresh| **Refresh Data Cache**: This button allows users to manually refresh the data cache of a workspace. Data is automatically refreshed every 30 minutes. This means if a record is updated, the changes are not immediately reflected on the dashboard. Thus, by manually refreshing the data cache of a workspace the time lag limitation can be overcome and the changes made will become visible immediately.
 * |download| **Download Data**: Opens the download interface, allowing you to export your data for further analysis in external applications. See `Download Data`_ for more information.
 * |pencil-thin| **Update Workspace**:  Enables you to alter the settings of an item (e.g. workspace, dashboard element, etc.)
@@ -167,9 +167,9 @@ This section aims to provide an overview of key icons used accross the platfrom 
 
 Breadcrumbs
 -----------------------
-Across the platform, breadcrumb trails shown on top of every page. The intend to help you navigate the platform more effectively and 
-provide a simple way to access previous pages. For example, the image below displays a sub-page of the Nigeria dashboard. 
-To return to the first page of the dashboard, click on **Nigeria** in the breadcrumb trail.
+Across the platform, breadcrumb trails are shown on top of every page. They intend to help you navigate the platform more effectively and 
+provide a simple way to access previous pages. In the example below, clicking on **Nigeria** in the breadcrumb trail allows you to return to the dashboard overview page from any of the sub-pages. 
+
 
 .. image:: media/img/HeRAMS_navigation_pane.png
    :height: 30px
@@ -179,8 +179,7 @@ To return to the first page of the dashboard, click on **Nigeria** in the breadc
 View a Project
 =================
 
-This chapter describes how to explore projects by accessing real-time analytics available in the HeRAMS platform. For each project, the HeRAMS platform provides a high level overview on key indicators such as the number of health facilities assessed,
-and overall functionality and service availability of a project. Interactive dashboards provide additional insights into individual projects and allow for users to focus on specific areas of interest. 
+This chapter provides an introduction to real-time analytics available in the HeRAMS platform. For each project, a high level overview on key indicators such as the number of health facilities assessed, overall functionality and service availability is available. Interactive dashboards provide additional insights into individual projects and empower users to rapidly produce an alaysis for specific areas and indicators of interest. 
 
 
 Project Overview
@@ -192,9 +191,9 @@ In addition, a brief summary on the number of projects available in HeRAMS, the 
 
 1.	To learn more about a project, either click the blue dot on the world map or select the project from the navigation pane on the left.
 2.	You should now see a pop-up window displaying an overview of the selected project. In the upper part of the pop-up you can see the project name, the number of health facilities assessed as well as the number of contributors. The lower half of the pop-up window displays a brief summary on the distribution of health facility types, their functionality and service availability.
-3.	For further details, click the |dashboard| button. This will open the project dashboard.
+3.	For further details, click the |dashboard-button| button. This will open the project dashboard.
 	
-.. tip:: Access to the project dashboards is restricted to selected users. If you would like to be granted access to a project dashboard, please contact your country focal point or send an email to `herams@who.int <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation why you would like to access the dashboard.
+.. tip:: Access to the project dashboards may restricted to selected users. If you would like to be granted access to a project dashboard, please contact your country focal point or send an email to `herams@who.int <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation why you would like to access the dashboard.
 
 .. image:: media/img/HeRAMS_worldview.png
    :alt: HeRAMS Worldview
@@ -208,7 +207,7 @@ Each project in HeRAMS has a custom interactive dashboard providing an instant a
 
 
 1. To view a project dashboard, open the project summary by selecting your project from the navigation pane on the left. Alternatively, you can open the project summary by clicking the corresponding blue dot on the world map.
-2. In the pop-up window, click the |details| button. This will open the interactive dashboard.
+2. In the pop-up window, click the |dashboard-button| button. This will open the interactive dashboard.
 3. You should now see a page similar to the one shown below. In the navigation pane on the left you will find a list of all available pages.
     
 .. image:: media/img/HeRAMS_dashboard_overview.png
@@ -417,7 +416,7 @@ This chapter is intended for data managers responsible to update HeRAMS data. It
 .. note:: Access to the data edit interface is limited to users responsible to update the data. If you require your access permissions to be changed, kindly contact the *Workspace Owner*, your *Project Admin* or send an email to `herams@who.int <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation on why you would like your access permissions to altered.
 
 Access your workspace
---------------------------------
+---------------------
 HeRAMS uses so-called *Workspaces* to manage access permission to the underlying data.
 A workspace may include all health facilities of a geographical region, health facilities managed by a specific partner or any other logical category. 
 Each workspace has a dedicated focal point, the *Workspace Owner*, who is responsible for updating and maintaining health facility records of their workspace. 
@@ -472,9 +471,9 @@ Edit a Health Facility Record
  
 3. You should now see a list of all responses belonging to the selected health facility. In the left-most column of the list, there are three buttons allowing to preform the following actions. 
  
-  - |view-black| view : Click this button to view the full response 
-  - |pencil-black| edit: Allows you to modify an existing response. This will permanently overwrite the exisitng infomration of a response and cannot be undone.
-  - |delete-black| delete: Permanently deletes a response form a health facility. See `Delete_a_response`__ for more information.
+  - |view| view : Click this button to view the full response 
+  - |pencil| edit: Allows you to modify an existing response. This will permanently overwrite the exisitng infomration of a response and cannot be undone.
+  - |delete| delete: Permanently deletes a response form a health facility. See `Delete_a_response`__ for more information.
  
  .. image:: media/img/HeRAMS_data_update_interface_action_buttons.png
    :height: 300px
@@ -483,7 +482,7 @@ Edit a Health Facility Record
  
 .. Note:: The number of action buttons visible depends on your project's settings.
   
-4. To modify a record click the |pencil-black| icon in the *Actions* columns. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.
+4. To modify a record click the |pencil| icon in the *Actions* columns. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.
 5. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button.
 6. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
 
@@ -532,15 +531,14 @@ Register a New Health Facility
 Remove a Response from Health Facility 
 -------------------------------------
 
-1. To delete a response from a health facility, open the `data update interface <#access-the-data-update-interface>`__ 
-and click the health facility record from which you would like to remove a response.
+1. To delete a response from a health facility, open the `data update interface <#access-the-data-update-interface>`__ and click the health facility record from which you would like to remove a response.
 2. You should now see the history of response to the selected record. To remove a specific response, click the |delete-black| icon in the first column
 3. If you would like the completely remove a health facility, repeat the above step until all responses have been deleted.
 
-.. note:: Only delete all response to a health facility if you are sure that it was entered by mistake (e.g. duplicated record). For health facility that are permanently closed, add a new response and change the status to "permanently closed". 
+.. note:: Only delete all response to a health facility if you are sure that it was entered by mistake (e.g. duplicated record). For health facility that are permanently closed, add a new response and change the status to *permanently closed*. 
 
 
-.. Warning:: Deleting records cannot be undone. Be careful when deleting a record.
+.. Warning:: Deleting responses cannot be undone. Be careful when deleting responses.
 
 
 Download Data
@@ -565,9 +563,7 @@ Follow the instructions below to download data for your workspace. If you requir
 .. note:: If you choose to export answers as code, question with predefined answer option will show coded value (e.g. A1) instead of the text label.  
 
 4. If a survey is available in multiple language, use the drop-down list to specify the export language. 
-5. By default, only the most recent response for each health facility is exported. For projects with multiple records per health facility, the data exported can be further customized in the Advanced settings. 
-	- **Export all records**: To export all historic records of a health facility, leave the **Report date** filed blank. 
-	- **Export one record per Health facility**: If a report date is defined,  only the last record before or equal to the selected date will be exported for each health facility. To get the most recent data, set the **Report date** equal to today.
+5. By default, all available responses for each health facility will be exported. For projects with multiple responses per health facility, the report date can be used to limit the number of responses exported. If a report date is defined,  only the last record before or equal to the selected date will be exported for each health facility. To get the most recent data, set the **Report date** equal to today.
 6. Once you have defined the export settings, select between the two export formats (**CSV** or **Excel**) by clicking the respective button. 
 
 .. note:: For large data sets, exporting data in Excel takes substantially longer than exporting as **CSV** format.  
@@ -835,17 +831,6 @@ Modify a Project
 2. Open the **Projects** page by selecting `Projects <https://herams.org/project/index>`_ in the navigation pane on the left.
 
 
-
---------
-
-The `Projects <https://herams.org/project/index>`_ page provides a brief overview of all projects available on the HeRAMS platform. 
-
-  .. image:: media/img/HeRAMS_projects.png
-  	:height: 300px
-	:align: center
-	
-
-
 Configure the Project Dashboard
 -------------------------------
 
@@ -873,7 +858,7 @@ Create Dashboard Pages
 Modify Dashboard Pages
 ~~~~~~~~~~~~~~~~~~~~~
 
-1. To alter an existing page, click the |pencil-black| icon next to the page's name. This will open the page's settings. You are now able to change the title and the order of the page. See `above <#add-a-new-page-to-a-dashboard>`__ for further details.
+1. To alter an existing page, click the |pencil| icon next to the page's name. This will open the page's settings. You are now able to change the title and the order of the page. See `above <#add-a-new-page-to-a-dashboard>`__ for further details.
 2. On the page that opens, you should now be able to alter the page name and the display order.
 3. Save your changes by clicking the |update-page| button.
 
@@ -881,7 +866,7 @@ Delete Dashboard Pages
 ~~~~~~~~~~~~~~~~~~~~~
 
 1. To delete a dashboard page, open the Project's property page. (Follow steps 1 - 3 in the `Modify a Project`_ section.
-2. In the list of available page, use the |delete-black| icon next to the page you would like to delete.
+2. In the list of available page, use the |delete| icon next to the page you would like to delete.
 
   .. warning:: Be careful when deleting pages or elements. Deleting dashboard pages will permanetly delete the page including potential sub-pages. 
 
@@ -969,7 +954,7 @@ Delete Dashboard Elements
 
 1. Open the Project's property page (Follow steps 1 - 3 in the `Modify a Project`_ section.
 2. In the bottom half of the page you will see a list of all available dashboard pages. Click the |pencil-thin| icon to open the page you would like to modify.
-3. In the lower half of the page you will see a list of all elements displayed on the dashboard page. Use the |delete-black| to permanently delete the element.
+3. In the lower half of the page you will see a list of all elements displayed on the dashboard page. Use the |delete| to permanently delete the element.
 
   .. warning:: Be careful when deleting dashboard elements. Deleted elements cannot be restored.
 
@@ -1096,12 +1081,12 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: dashboard
    :align: top
 
-.. |delete-blue| image:: media/img/icon_delete_blue.png
+.. |dashboard-button| image:: media/img/bt_dashboard.png
    :height: 1.5em
-   :alt: delete
+   :alt: dashboard
    :align: top
-   
-.. |delete-black| image:: media/img/icon_delete_black.png
+
+.. |delete| image:: media/img/icon_delete.png
    :height: 1.5em
    :alt: delete
    :align: top   
@@ -1160,17 +1145,13 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: edit
    :align: top
    
-.. |pencil-black| image:: media/img/icon_data_update_black.png
+.. |pencil| image:: media/img/icon_pencil.png
    :height: 1.5em
    :alt: edit
    :align: top
    
-.. |pencil-blue| image:: media/img/icon_pencil_blue.png
-   :height: 1.5em
-   :alt: next
-   :align: top  
 
-.. |pencil-thin| image:: media/img/icon_pencil_black.png
+.. |pencil-thin| image:: media/img/icon_pencil_thin.png
    :height: 1.5em
    :alt: pencil
    :align: top
@@ -1180,12 +1161,22 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: refresh
    :align: top 
 
-.. |register| image:: media/img/bt_register.png
+.. |register-white| image:: media/img/bt_register.png
    :height: 1.5em
-   :alt: refresh
+   :alt: register
    :align: top  
 
-.. |reset-password| image:: media/img/request-access.png
+.. |register-blue| image:: media/img/bt_register.png
+   :height: 1.5em
+   :alt: register
+   :align: top 
+
+.. |request-password-reset| image:: media/img/bt_request_password_reset.png
+   :height: 1.5em
+   :alt: register
+   :align: top 
+
+.. |reset-password| image:: media/img/bt_reset_password.png
    :height: 1.5em
    :alt: refresh
    :align: top  
@@ -1251,9 +1242,9 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: update-project
    :align: top 
 
-.. |user-guide| image:: media/img/icon_user-guide.png
+.. |user-guide| image:: media/img/icon_user_guide.png
    :height: 1.5em
-   :alt: update-project
+   :alt: user-guide
    :align: top    
 	
 .. |workspace| image:: media/img/icon_workspace.png
