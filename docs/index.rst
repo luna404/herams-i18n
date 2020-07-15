@@ -110,7 +110,7 @@ Change Password
 1. To change your password, open your user profile as explained `above <#update-your-user-profile>`_.
 2. In the pop-up window that opens, select the `Password`  tab.  
 3. You should be able to change your email address and enter a new password.
-4. Make sure to click the |update-password-en| button to confirm your changes.
+4. Make sure to click the |update-password| button to confirm your changes.
 5. To return to the main page, close the pop-up by clicking the X in the top right corner.
 
 .. image:: media/vid/HeRAMS_change_password.gif
@@ -532,7 +532,7 @@ Remove a Response from Health Facility
 -------------------------------------
 
 1. To delete a response from a health facility, open the `data update interface <#access-the-data-update-interface>`__ and click the health facility record from which you would like to remove a response.
-2. You should now see the history of response to the selected record. To remove a specific response, click the |delete-black| icon in the first column
+2. You should now see the history of response to the selected record. To remove a specific response, click the |delete| icon in the first column
 3. If you would like the completely remove a health facility, repeat the above step until all responses have been deleted.
 
 .. note:: Only delete all response to a health facility if you are sure that it was entered by mistake (e.g. duplicated record). For health facility that are permanently closed, add a new response and change the status to *permanently closed*. 
@@ -807,7 +807,7 @@ Rename a Worksapce
 
 1. To rename a workspace, access the workspace page of your project. See `<access-your-workspace>`__ for more detailed instructions. 
 2. Open the *Workspace settings* by click the |pencil-thin| icon next to your workspace's name.
-3. You should now be able to modfiy the Title of your workspace. Remember to click |save| in order for your changed to be implemented.
+3. You should now be able to modfiy the Title of your workspace. 
 
   .. Warning: Do not modify tokens without discussing it with a *Global Administrator*. Please contact herams@who.int for information.
 
@@ -815,7 +815,7 @@ Delete a Workspace
 ~~~~~~~~~~~~~~~~~~~
 
 1. To remove a workspace from the list of workspaces, access the workspace page of your project. See `<access-your-workspace>`__ for more detailed instructions. 
-2. You can now remove a workspace by clicking the |delete-black| icon in the **Actions** column next to the selected workspace.
+2. You can now remove a workspace by clicking the |delete| icon in the **Actions** column next to the selected workspace.
 
  
 Manage a Project
@@ -1026,20 +1026,17 @@ Exported data is unreadable / contains strange characters
 
 If you open data downloaded from HeRAMS in Excel, you might experience an issue with special characters not displaying correctly, resulting in unreadable text. For example, instead of **camp de réfugiés** you get **Camp de rÃ©fugiÃ©s**. The reason for this is that Excel is not using the correct encoding type to read your data. To correct the issue, follow the instruction outlined `here <#data-encoding-in-excel>`__.
 
+
+.. |add-response| image:: media/img/bt_add_response.png
+     :height: 1.5em
+     :align: top
+     :alt: add response
+
 .. |applyfilter| image:: media/img/bt_apply_filter.png
      :height: 1.5em
      :align: top
      :alt: apply filter
 
-.. |captcha| image:: media/img/img_captcha.png
-   :alt: HeRAMS Login
-   :height: 1.5em
-   :align: top
-
-.. |check| image:: media/img/icon_check_data.png
-   :height: 1.5em
-   :alt: check data
-   :align: top
    
 .. |clear| image:: media/img/bt_clear.png
    :height: 1.5em
@@ -1050,11 +1047,6 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :height: 1.5em
    :align: top
    :alt: clearfilter
-
-.. |create-account| image:: media/img/bt_create-account.png
-   :height: 1.5em
-   :alt: create-element
-   :align: top
 
 .. |create-element-blue| image:: media/img/bt_create_element_blue.png
    :height: 1.5em
@@ -1091,10 +1083,6 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: delete
    :align: top   
 
-.. |details| image:: media/img/bt_details.png
-   :height: 1.5em
-   :align: top
-   :alt: details
 
 .. |download| image:: media/img/icon_download.png
    :height: 1.5em
@@ -1140,7 +1128,7 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: submit
    :align: top
 
-.. |pdf-bt| image:: media/img/bt_pdf.png
+.. |pdf| image:: media/img/bt_pdf.png
    :height: 1.5em
    :alt: edit
    :align: top
@@ -1196,26 +1184,18 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :height: 1.5em
    :alt: settings
    :align: top 
-
-.. |sign-up| image:: media/img/bt_sign_up.png
+   
+.. |send-confirmation| image:: media/img/bt_send_confirmation.png
    :height: 1.5em
-   :align: top
-   :alt: sign-up
+   :alt: send confirmation
+   :align: top 
+
    
 .. |submit| image:: media/img/bt_submit.png
    :height: 1.5em
    :alt: submit
    :align: top
    
-.. |submit-en| image:: media/img/bt_submit_en.png
-   :height: 1.5em
-   :alt: submit
-   :align: top   
-
-.. |update-blue| image:: media/img/icon_data_update_blue.png
-   :height: 1.5em
-   :alt: update
-   :align: top
    
 .. |update-data| image:: media/img/icon_data_update_black.png
    :height: 1.5em
@@ -1231,8 +1211,14 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :height: 1.5em
    :alt: update-page
    :align: top
-   
-.. |update-project| image:: media/img/bt_update_project.png
+
+
+.. |update-page| image:: media/img/bt_update_page.png
+   :height: 1.5em
+   :alt: update-page
+   :align: top
+
+.. |update-password| image:: media/img/bt_update_password.png
    :height: 1.5em
    :alt: update-project
    :align: top
@@ -1246,13 +1232,15 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :height: 1.5em
    :alt: user-guide
    :align: top    
-	
+
+.. |view| image:: media/img/icon_view.png
+   :height: 1.5em
+   :alt: user-guide
+   :align: top  
+   
+   
 .. |workspace| image:: media/img/icon_workspace.png
    :height: 1.5em
    :alt: workspace
    :align: top
    
-.. |workspace-bt| image:: media/img/bt_workspace.png
-   :height: 1.5em
-   :alt: workspace
-   :align: top
