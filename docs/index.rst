@@ -20,31 +20,34 @@ For general information on the HeRAMS approach and for technical guidance please
 Getting started
 ===============
 
+This chapter is intended for new users of the `HeRAMS platform <https://herams.org/>`_ platform. It covers all issues related to registering and accessing the platform as well as managing your user profile. To help you navigate the platform on your own, the last section of this chapter provides an explanation to the different icons used across the platform. 
+
+
 Creating a User Account
 -----------------------
 
-This chapter provides step-by-step instructions on how to access the `HeRAMS platform <https://herams.org/>`_, create a user account and update your user profile.
 
 1. To register as a new user, open the link `herams.org <https://herams.org>`_ in your browser.
 
 .. tip:: It is strongly recommended to either user FireFox or Chrome.
 
-2. On the sign-in page, click the `sign up <https://herams.org/user/request-account>`_ link located just above the |login| button.
+2. In the lower half of the screen you should see an option to register as new user. Enter your email address and click the |register|.
 
 .. image:: media/img/HeRAMS_register.png
    :alt: HeRAMS Login
    :height: 150px
    :align: center
 
-3. On the page that opens, enter your e-mail and click the |request-access| button.
 4. A confirmation email will be sent to the email address you entered. Confirm your registration by clicking the link in your email.
    
 .. tip:: If you don't receive a confirmation email within a few minutes, check your spam folder.
 
-5. A new tab will open prompting you to enter your name and password. Click the |create-account| button to finalize your registration.
-6.  You should now  be able to access the `HeRAMS platfrom <https://herams.org>`_. Enter your username and password into the designated fields and press |login|.
+5. A new tab will open prompting you to enter your name and password. Click the |register-blue| button to finalize your registration.
 
-.. image:: media/vid/HeRAMS_create_account.gif
+.. note:: If you are not automatically logged-in, please follow the steps outlined below to login as exisitng user. 
+
+
+.. image:: media/vid/HeRAMS_register.gif
     :align: center
 
 
@@ -54,8 +57,13 @@ Logging in
 .. note:: New users without an existing account, will have to register before being able to login to the HeRAMS platform. To create a user account, follow the instructions `here <#creating-a-user-account>`_.
 
 1. Open the link `herams.org <https://herams.org>`_ in your browser.
-2. Enter your email address and password in the designated fields.
-3. Click the |login| button.
+2. Enter your email address and password in the designated fields in the top half of the page and click the |login| button.
+
+.. image:: media/img/HeRAMS_reset_password_link.png
+   :alt: HeRAMS Login
+   :height: 200px
+   :align: center
+   
 
 .. tip:: It is strongly recommended to either user FireFox or Chrome.
 
@@ -71,9 +79,9 @@ Reset password
 In case you forgot your password, the instructions below will guide you through the steps to reset your password.
 
 1. Open the link `herams.org <https://herams.org>`_ in your browser.
-2. On the sign in page, click the `reset password <https://herams.org/user/request-reset>`_ link.
+2. On the sign in page, click the `Forgot your password <https://herams.org/user/request-reset>`_ link.
 
-.. image:: media/img/HeRAMS_reset_password_link.png
+.. image:: media/img/HeRAMS_reset_password.png
    :alt: HeRAMS Login
    :height: 200px
    :align: center
@@ -87,10 +95,6 @@ In case you forgot your password, the instructions below will guide you through 
 6. Click the |reset-password| button to confirm your new password.
 7. You have now successfully changed your password. To access the HeRAMS platform, return to the `sign in page <https://herams.org>`_ and enter your credentials.
 
-.. image:: media/vid/HeRAMS_reset_password.gif
-   :alt: Password reset
-   :height: 300px
-   :align: center
 
 
 Update your User Profile
@@ -114,36 +118,73 @@ Change Password
    :align: center
    :height: 300px
    
-   
+Change Language Preference
+---------------------------
+The HeRAMS platform is available in multiple language. Unless specified otherwise, the language will be automatically adjusted based on your browser language. 
+For users having a browser language that is not supported by HeRAMS, the language will default to English. To manually adjust your language preference, follow the steps below. 
+
+
+1. To change your language preference, open your user profile as explained `above <#update-your-user-profile>`_.
+2. In the pop-up window that opens, navigate to the **Profile** tab.  
+3. Change the drop-down list to desired language and click the |update-profile| button.
+
+.. note:: HeRAMS will remember your language preferences next time you log-in. If you would like to change them, you must return to this page and update your user profile.
+
+
+.. image:: media/img/HeRAMS_language_settings.png
+   :alt: change password video
+   :align: center
+   :height: 300px
+
+
+Change Email Address
+--------------------
+1. To change your e-mail address, open your user profile as explained `above <#update-your-user-profile>`_.
+2. Open the **Email** tab and enter the new email address you would like to use for your HeRAMS account.
+3. Click the |send-confirmation| button. This will send a confirmation email to your new email address.
+4. Click the link in the confirmation email to validate your new email address.
    
 Icons and Their Meaning
 -----------------------
+This section aims to provide an overview of key icons used accross the platfrom and explains their meanings.
 
-* |favorites| **Favorites**
-* |settings| **Settings**
-* |question-mark| **Questions**
 
+* |favorites| **Favorites**: This allows you to create a personal list of favorite workspaces, accessible directly from the world map. See `Favorites`__ to learn more about how to add worksapces to your list Favorites.
+* |settings| **Settings**: Use this button to access the HeRAMS admin interface. For more information on the HeRAMS admin interface is available in the `HeRAMS_Administration`__ chapter.
+* |user-guide| **User Guide**: Opens the HeRAMS user-guide.
+* |workspace| **Workspaces**: This opens the list of all available workspace of a project. See `here <#workspaces>`__ for more information on workspaces. 
+* |dashboard| **Dashboard**: Opens the `Project Dashboard`_.
+* |view-black| **View Response**: Grants you view access to a specific item or record. 
+* |pencil-black| **Edit**: Opens the data edit interface. More information on data editing and updating is available `here <#edit-date>`__.
+* |delete-black| **Delete**: Deletes a specific item or record. 
 * |refresh| **Refresh Data Cache**: This button allows users to manually refresh the data cache of a workspace. Data is automatically refreshed every 30 minutes. This means if a record is updated, the changes are not immediately reflected on the dashboard. Thus, by manually refreshing the data cache of a workspace the time lag limitation can be overcome and the changes made will become visible immediately.
-* |pencil-thin| **Update Workspace**:  allows to change the title or token of a workspace.
-* |share-icon| **Share Workspace**: To grant a user access to workspace, the workspace must be shared with the user. For more information on how to add users to a workspace click `here <#add-a-user-to-a-workspace>`__.
-* |delete-black| **Delete Workspace**: Permanently removes a workspace from a project. See `Delete a Workspace`_ for more information.
-* |download| **Download Data**: Downloads all records belonging to the selected workspace. See `Download Data`_ for more information.
-* |pencil-black| **Data Update**: This opens the data edit interface. More information on data editing and updating is available `here <#edit-date>`__.
-
-.. note: The number of buttons visible to users depends on your access rights and might vary from one workspace to another.
-
-* |workspace| **Workspaces**: This opens the list of all available workspace belonging to the project. See `here <#workspaces>`__ for more information on workspaces. 
-* |dashboard| **Dashboard**: By clicking the dashboard icon, the `Project Dashboard`_ will be opened.
-* |pencil-thin| **Edit Project Properties**: Permits users with specific permission to alter the project properties as well as to configure the project dashboard. See `Modify a Project`_ for more information on editing the project properties. For additional information on how to configure the dashboard, consult the section `Configure the Project Dashboard`_.
-* |check| **Check Data**: Can be used for a quick review of the data to identify invalid responses.
-* |share-icon| **Share**: The sharing function is used to grant users access to a project. See `below <#add-a-user-to-a-project>`__ for further details.
-
-  .. note: The number of buttons visible to users depends on your access rights to a specific project is likely to vary from one project to another.
+* |download| **Download Data**: Opens the download interface, allowing you to export your data for further analysis in external applications. See `Download Data`_ for more information.
+* |pencil-thin| **Update Workspace**:  Enables you to alter the settings of an item (e.g. workspace, dashboard element, etc.)
+* |share-icon| **Share Workspace**: Opens the user management page of a project or workspace. For more information on go to `User_management`__
 
 
+.. note: The number of buttons visible to you depends on your `user role<#user-roles>` and might vary from one workspace/project to another.
 
-World map
-=========
+Breadcrumbs
+-----------------------
+Across the platform, breadcrumb trails shown on top of every page. The intend to help you navigate the platform more effectively and 
+provide a simple way to access previous pages. For example, the image below displays a sub-page of the Nigeria dashboard. 
+To return to the first page of the dashboard, click on **Nigeria** in the breadcrumb trail.
+
+.. image:: media/img/HeRAMS_navigation_pane.png
+   :height: 30px
+   :align: center
+
+
+View a Project
+=================
+
+This chapter describes how to explore projects by accessing real-time analytics available in the HeRAMS platform. For each project, the HeRAMS platform provides a high level overview on key indicators such as the number of health facilities assessed,
+and overall functionality and service availability of a project. Interactive dashboards provide additional insights into individual projects and allow for users to focus on specific areas of interest. 
+
+
+Project Overview
+----------------
 
 After logging in, you will see a world map with several blue dots. Each of these dots represents a HeRAMS project.
 You can also see the list of all available projects in the navigation pane on the left. 
@@ -151,7 +192,7 @@ In addition, a brief summary on the number of projects available in HeRAMS, the 
 
 1.	To learn more about a project, either click the blue dot on the world map or select the project from the navigation pane on the left.
 2.	You should now see a pop-up window displaying an overview of the selected project. In the upper part of the pop-up you can see the project name, the number of health facilities assessed as well as the number of contributors. The lower half of the pop-up window displays a brief summary on the distribution of health facility types, their functionality and service availability.
-3.	For further details, click the |details| button. This will open the project dashboard.
+3.	For further details, click the |dashboard| button. This will open the project dashboard.
 	
 .. tip:: Access to the project dashboards is restricted to selected users. If you would like to be granted access to a project dashboard, please contact your country focal point or send an email to `herams@who.int <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation why you would like to access the dashboard.
 
@@ -162,11 +203,9 @@ In addition, a brief summary on the number of projects available in HeRAMS, the 
 
 
 Project Dashboard
-=================
+------------------
 Each project in HeRAMS has a custom interactive dashboard providing an instant and in-depth analysis based on the available data.
 
-View a project dashboard
--------------------------
 
 1. To view a project dashboard, open the project summary by selecting your project from the navigation pane on the left. Alternatively, you can open the project summary by clicking the corresponding blue dot on the world map.
 2. In the pop-up window, click the |details| button. This will open the interactive dashboard.
@@ -181,12 +220,8 @@ View a project dashboard
 
 .. tip:: Some pages may contain a sub-page, indicated by a |forward| icon next to the page's name.
 
-5. To return to a previous page, you can either select the page in the navigation pane on the left or use the breadcrumb trail on top of the dashboard. For example, the image below displays a sub-page of the Nigeria dashboard. 
-To return to the first page of the dashboard, click on **Nigeria** in the breadcrumb trail.
+.. tip:: If you hover with your mouse over a point on a map or a chart, a small pop-up message will appear, displaying additional details.
 
-.. image:: media/img/HeRAMS_navigation_pane.png
-   :height: 30px
-   :align: center
 
 The animation below shows the dashboards in action.
 
@@ -195,12 +230,13 @@ The animation below shows the dashboards in action.
    :height: 300px
    :align: center
 
+
 Customizing a dashboard
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 This section provides a few tips and tricks on how to customize the dashboard by applying filters and alter some of default display options.
 
-### Filtering data
-//~~~~~~~~~~~~~~
+Apply filters
+"""""""""""""
 
 Data on the dashboard can be filtered. This allows you to scrutinize the data subsets that are of interest to you.
 
@@ -221,37 +257,34 @@ Data on the dashboard can be filtered. This allows you to scrutinize the data su
    :align: center
 
 
-Tooltips
-~~~~~~~~
-
-If you hover with your mouse over a point on a map or a chart, a small pop-up message will appear, displaying additional details.
-
-Adjust the Map Zoom Level and Focus Area
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Map Zoom Level and Focus Area
+"""""""""""""""""""""""""""""
 
 You can adjust the zoom level of a map by using the scroll button on your mouse. To change the focus area of a map, position you mouse in the map element. Right click (hold) and drag the map in the desired direction. This will move the map focus area.
 
 Remove a Category from Charts or Maps
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""
 
 By clicking the icons in the legend, you can remove a category from a chart or map. To add it again, simply click the circle again.
 
 Reorder map layers
-~~~~~~~~~~~~~~~~~~
+""""""""""""""""""
 
 Depending on the zoom level applied to a map, it may happen that several points lie on top of each other, hiding some facilities. To bring a specific category to the front, uncheck the category in the legend. This will remove the category from the map. If you add the category again (click the now empty circle), the category will be added on top of the other points.
 
 .. image:: media/vid/HeRAMS_dashboard_customize_maps.gif
    :height: 300px
+   
+   
 
 Exporting a dashboard
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 Dashboards can be printed or exported as PDF document. 
 
 .. note:: The export will include any filters that might applied. 
 
 1. To export a dashboard, open the desired dashboard as explained `here <#view-a-project-dashboard>`__.
-2. Click the |pdf-bt| icon in the top right corner of your screen.
+2. Click the |pdf| icon in the top right corner of your screen.
 
 .. image:: media/img/HeRAMS_dashboard_pdf.png
    :height: 300px
@@ -259,14 +292,14 @@ Dashboards can be printed or exported as PDF document.
 3. This will open a new tab containing a printable version of the dashboard. Click `CTRL`+ `P` to print the dashboard or save it as a pdf. 
 
 Default dashboard pages
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 The below section provides an overview of the standard pages available in a dashboard. Each page refers to a HeRAMS standard information pillar.
 
 .. note:: The order and the content of dashboards are customized individually based on each project's need. Your dashboard might, therefore, be substantially different from the example pages displayed below.
 
 Overview
-~~~~~~~~
+""""""""
 
 The **Overview** page provides a summary, in form of:
 
@@ -280,7 +313,7 @@ The **Overview** page provides a summary, in form of:
    :align: center
 
 Infrastructure
-~~~~~~~~~~~~~~
+""""""""""""""
 
 The **Infrastructure** page displays a descriptive analysis, including:
 
@@ -293,7 +326,7 @@ The **Infrastructure** page displays a descriptive analysis, including:
    :align: center
 
 Condition
-~~~~~~~~~
+"""""""""
 
 The **Condition** page displays the level of reported damage to MoSD buildings following a standard classification and scale (Not Damaged to Fully Damaged). Information is visualized as:
 
@@ -306,7 +339,7 @@ The **Condition** page displays the level of reported damage to MoSD buildings f
    :align: center
    
 Functionality
-~~~~~~~~~~~~~
+"""""""""""""
 
 The **Functionality** page displays the level of functionality of the MoSDs following a standard classification and scale (Fully Functioning to Not Functioning) represented as:
 
@@ -319,7 +352,7 @@ The **Functionality** page displays the level of functionality of the MoSDs foll
    :align: center
    
 Accessibility
-~~~~~~~~~~~~~
+"""""""""""""
 
 The **Accessibility** page displays the level of accessibility to MoSDs following a standard classification and scale (Fully Accessible to Not Accessible) in the form of:
 
@@ -332,7 +365,7 @@ The **Accessibility** page displays the level of accessibility to MoSDs followin
    :align: center
    
 Management & support
-~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
 The **Management & support** page displays information on the management of the MoSDs and the level of support provided by partners. The information is illustrated in terms of:
 
@@ -350,7 +383,7 @@ The **Management & support** page displays information on the management of the 
    :align: center
    
 Basic Amenities
-~~~~~~~~~~~~~~~
+"""""""""""""""
 
 Information on **Basic Amenities** is presented in a series of subpages. Each subpage is dedicated to a particular category and includes:
 
@@ -363,7 +396,7 @@ Information on **Basic Amenities** is presented in a series of subpages. Each su
    :align: center
    
 Service Availability
-~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""
 
 The **Service Availability** page displays multiple pages per type of service. Each page displays:
 
@@ -393,7 +426,7 @@ For more information on how to grant users access to workspace please view the `
 
 
 1. Open the project summary pop-up by selecting your project from the navigation pane on the left. Alternatively, you can open the project summary by clicking the corresponding blue dot on the world map.
-2. Click the |workspace-bt| button on the bottom right corner of the pop-up.
+2. Click the |workspace| button on the bottom right corner of the pop-up.
 3. This opens the list of available workspace of the selected project. For each project, the table displays the number **Workspaces**, **Contributors**, **Health facilities** and **Responses**.
   
 .. image:: media/img/HeRAMS_popup_workspaces.png
@@ -425,7 +458,7 @@ The video below summarizes the steps to access the data entry interface.
 Edit a Health Facility Record
 -----------------------------
 
-.. Caution:: Editing a record will overwrite the existing record. If you would like to update the status of a health facility while keeping the history of changes, follow the instructions in the section `below <#add_a_response_to_a_health_facility_record>`__..
+.. Caution:: Editing a record will overwrite the existing record. If you would like to update the status of a health facility while keeping the history of changes, follow the instructions in the section `below <#add_a_response_to_a_health_facility_record>`__.
 
 1. Open the data update interface as outlined `above <#access-the-data-update-interface>`__.
 2. To ease navigation, records are grouped by health facility. To edit a specific response, you first have to expand the health facility by clicking anywhere in the corresponding row.
@@ -439,9 +472,9 @@ Edit a Health Facility Record
  
 3. You should now see a list of all responses belonging to the selected health facility. In the left-most column of the list, there are three buttons allowing to preform the following actions. 
  
-  - view |view-black|: Click this button to view the full response 
-  - edit |pencil-black| : Allows you to modify an existing response. This will permanently overwirte the exisitng infomration of a response and cannot be undone.
-  - delete |delete-black|: Permanently deletes a response form a health facility. See `Delete_a_response`__ for more information.
+  - |view-black| view : Click this button to view the full response 
+  - |pencil-black| edit: Allows you to modify an existing response. This will permanently overwrite the exisitng infomration of a response and cannot be undone.
+  - |delete-black| delete: Permanently deletes a response form a health facility. See `Delete_a_response`__ for more information.
  
  .. image:: media/img/HeRAMS_data_update_interface_action_buttons.png
    :height: 300px
@@ -454,7 +487,7 @@ Edit a Health Facility Record
 5. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button.
 6. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
 
-.. note:: While your project may allow you to save your reponse and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
+.. note:: While your project may allow you to save your response and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
 
 
 .. image:: media/vid/HeRAMS_edit_health_facility.gif
@@ -471,19 +504,18 @@ If HeRAMS is used as a monitoring tool, you can record changes to a health facil
 
 1. To update the status of a health facility, open the `data update interface <#access-the-data-update-interface>`__.
 2. Click the health facility record you would like to add a response to. 
-4. You should now see the history of response to the selected health facility. To add a new response, click the |add-response| button in the action column. 
+3. You should now see the history of response to the selected health facility. To add a new response, click the |add-response| button in the action column. 
 
  .. image:: media/img/HeRAMS_data_update_interface_add_responses.png
    :height: 300px
    :alt: update data table
    :align: center
 
-5. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.
-6. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button.
-7. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
+4. You should now be able to edit the selected record. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.
+5. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button.
+6. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
 
-.. note:: While your project may allow you to save your reponse and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make 
-sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
+.. note:: While your project may allow you to save your repose and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
 
 
 Register a New Health Facility
@@ -491,23 +523,21 @@ Register a New Health Facility
 
 1. To register a new health facility, navigate to the data `update interface <#access-the-data-update-interface>`__.
 2. Click the |new-record| button in the top left corner. This will open a blank form, allowing you to register a new health facility.
-2. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.   
-3. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button. 
-4. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
+3. Use the |next| buttons in the lower right corner to move to the next page of the questionnaire or return to the previous page. You can also use the navigation pane on the left to access a specific section of the questionnaire.   
+4. Make sure to validate and save your changes before exiting the record. To save your changes, navigate to the last page, **Validate**, and click the |submit| button. 
+5. If you would like to discard your edits, click the |clear| button in the lower right corner of the page.
 
-.. note:: While your project may allow you to save your reponse and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make 
-sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
+.. note:: While your project may allow you to save your response and resume later, only records that were submitted will appear on the dashboard and the export. Thus, once you have completed your edits, make sure to **always** navigate to the last page, **Validate**, and click the |submit| button.
 
 Remove a Response from Health Facility 
--------------------------------
+-------------------------------------
 
 1. To delete a response from a health facility, open the `data update interface <#access-the-data-update-interface>`__ 
 and click the health facility record from which you would like to remove a response.
-2. You should now see the history of response to the selected record. To remove a specifc response, click the |delete-black| icon in the first column
+2. You should now see the history of response to the selected record. To remove a specific response, click the |delete-black| icon in the first column
 3. If you would like the completely remove a health facility, repeat the above step until all responses have been deleted.
 
-.. note:: Only delete an entire health facility record if you are sure that it was entered by mistake (e.g. duplicate entry).
-For health facility that are permanently closed, add a new response and change the status to "permanently closed". 
+.. note:: Only delete all response to a health facility if you are sure that it was entered by mistake (e.g. duplicated record). For health facility that are permanently closed, add a new response and change the status to "permanently closed". 
 
 
 .. Warning:: Deleting records cannot be undone. Be careful when deleting a record.
@@ -579,17 +609,13 @@ The below instructions guide users through the steps to define the data encoding
 HeRAMS Administration
 =====================
 
-This chapter provides an overview of the admin pages in HeRAMS and offers step-by-step instructions for common tasks performed by advanced users and project administrators. 
+This chapter provides an overview of the admin pages in HeRAMS and offers step-by-step instructions for common tasks performed by advanced users (e.g. *Workspace Owners* and *Project Admins*. The first part of the chapter focuses on user management. It provides an overview of the default HeRAMS **User roles** used through the platform followed by detailed description on how to add users to workspaces and projects. The remaining parts of this chapter focuses on more advanced topics and are intended to guide *Project Admins* on how to administer a project locally. 
 
-The first part of the chapter provides an overview of the default HeRAMS **User roles** that are used throught the platfrom. 
 
- introduces the concept of `Workspaces`_ while the second part focuses on `Projects`_ level administration and the configuration of project specific `Project Dashboard`_.
-
-.. note:: If you require your permissions to be changed, kindly contact your country focal point or send an email to `HeRAMS Support Team <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation of why you would like your access permissions to altered.
-
+.. note:: Access to different parts of the admin interface depend on your function and role. If you require your permissions to be changed, kindly contact your *Project Admin* or send an email to `HeRAMS Support Team <mailto:herams@who.int?>`_ specifying your function and role as well as a brief explanation of why you would like your access permissions to altered.
 
 User Management
-----------
+---------------
 
 Workspace Permissions
 ~~~~~~~~~~~~~~~~~~~~~
@@ -609,7 +635,7 @@ Granting a users permission to a workspace enables them to contribute or downloa
 **Manage users** is not able to grant access to edit data. 
 
 Workspace permission should always be assigned in with regard to the a users roles. The below screenshots indicate the level of permissions that should be granted to the respective user. 
-For further details on the standard HeraMS user roles, please consult the `previous section <#user-roles>`__.
+For further details on the standard HeRAMS user roles, please consult the `previous section <#user-roles>`__.
 
 
 Project Permissions
@@ -630,7 +656,6 @@ There are five permissions that can be granted at the project level.
 .. Warning: *Workspace Owners* must be granted permission at the workspace level. If a user is granted permissions to *Manage workspaces* they will have access to **all** workspaces.
 
 **Configure dashboard**: grants users the ability to edit and configure their *Project Dashboard*. 
-
 
 
 HeRAMS User Roles
@@ -819,8 +844,6 @@ The `Projects <https://herams.org/project/index>`_ page provides a brief overvie
   	:height: 300px
 	:align: center
 	
-
-
 
 
 Configure the Project Dashboard
@@ -1093,6 +1116,11 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: download
    :align: top
    
+.. |favorites| image:: media/img/icon_favorite.png
+   :height: 1.5em
+   :align: top	
+   :alt: favorite
+   
 .. |filter| image:: media/img/bt_filter.png
    :height: 1.5em
    :align: top	
@@ -1152,7 +1180,7 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: refresh
    :align: top 
 
-.. |request-access| image:: media/img/request-access.png
+.. |register| image:: media/img/bt_register.png
    :height: 1.5em
    :alt: refresh
    :align: top  
@@ -1217,11 +1245,22 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :height: 1.5em
    :alt: update-project
    :align: top
+
+.. |update-profile| image:: media/img/bt_update_profile.png
+   :height: 1.5em
+   :alt: update-project
+   :align: top 
+
+.. |user-guide| image:: media/img/icon_user-guide.png
+   :height: 1.5em
+   :alt: update-project
+   :align: top    
 	
 .. |workspace| image:: media/img/icon_workspace.png
    :height: 1.5em
    :alt: workspace
    :align: top
+   
 .. |workspace-bt| image:: media/img/bt_workspace.png
    :height: 1.5em
    :alt: workspace
