@@ -1157,7 +1157,7 @@ If you open data downloaded from HeRAMS in Excel, you might experience an issue 
    :alt: register
    :align: top  
 
-.. |register-blue| image:: media/img/bt_register_blue.png
+.. |register-blue| image:: media/img/bt_register.svg
    :height: 1.5em
    :alt: register
    :align: top 
